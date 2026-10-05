@@ -37,6 +37,8 @@ msgstr "Користувацькі параметри"
 #: model:ir.model.fields,help:report_wkhtmltopdf_param.field_report_paperformat__custom_params
 msgid "Custom Parameters passed forward as wkhtmltopdf command arguments"
 msgstr ""
+"Спеціальні параметри, що передаються як аргументи командного рядка "
+"wkhtmltopdf"
 
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,field_description:report_wkhtmltopdf_param.field_report_paperformat_parameter__display_name
@@ -87,7 +89,7 @@ msgstr ""
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,help:report_wkhtmltopdf_param.field_report_paperformat_parameter__name
 msgid "The command argument name. Remember to add prefix -- or -"
-msgstr ""
+msgstr "Назва аргументу команди. Не забудьте додати префікс -- або -"
 
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,field_description:report_wkhtmltopdf_param.field_report_paperformat_parameter__value
@@ -97,7 +99,7 @@ msgstr "Значення"
 #. module: report_wkhtmltopdf_param
 #: model:ir.model,name:report_wkhtmltopdf_param.model_report_paperformat_parameter
 msgid "wkhtmltopdf parameters"
-msgstr ""
+msgstr "Параметри wkhtmltopdf"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

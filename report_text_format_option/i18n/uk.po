@@ -37,3 +37,28 @@ msgstr "Обробка помилки кодування тексту"
 #: model:ir.model.fields,field_description:report_text_format_option.field_ir_actions_report__text_encoding
 msgid "Text Encoding"
 msgstr "Кодування тексту"
+
+#. module: report_text_format_option
+#: model:ir.model.fields,help:report_text_format_option.field_ir_actions_report__text_encoding
+msgid "Encoding to be applied to the generated Text file. e.g. cp932"
+msgstr ""
+"Кодування, яке слід застосувати до створеного текстового файлу, наприклад "
+"cp932"
+
+#. module: report_text_format_option
+#: model:ir.model.fields,help:report_text_format_option.field_ir_actions_report__text_encode_error_handling
+msgid ""
+"If nothing is selected, text export will fail with an error message when "
+"there is a character that fail to be encoded."
+msgstr ""
+"Якщо нічого не вибрано, експорт тексту завершиться помилкою, коли трапиться "
+"символ, який неможливо закодувати."
+
+#. module: report_text_format_option
+#: model:ir.model.fields,help:report_text_format_option.field_ir_actions_report__line_ending
+msgid ""
+"Select the type of line ending in case the report needs to be output with "
+"other line ending than 'LF'."
+msgstr ""
+"Виберіть тип завершення рядка, якщо звіт потрібно виводити з іншим "
+"завершенням рядка, ніж 'LF'."

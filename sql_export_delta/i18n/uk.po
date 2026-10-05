@@ -17,3 +17,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:sql_export_delta.field_sql_export__export_delta
 msgid "Delta"
 msgstr "Дельта"
+
+#. module: sql_export_delta
+#: model:ir.model,name:sql_export_delta.model_sql_file_wizard
+msgid "Allow the user to save the file with sql request's data"
+msgstr "Дозволити користувачу зберігати файл із даними SQL-запиту"
+
+#. module: sql_export_delta
+#: model:ir.model.fields,help:sql_export_delta.field_sql_export__export_delta
+msgid ""
+"With this checked, the full result of the query will be stored as table in "
+"the database, but the file generated will only contain rows not existing in "
+"the n-1st export"
+msgstr ""
+"Якщо позначено, повний результат запиту зберігатиметься як таблиця в базі "
+"даних, але створений файл міститиме лише рядки, яких не було в попередньому "
+"(n-1) експорті."

@@ -351,3 +351,140 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
 msgid "There are two ways to fetch value from the object:"
 msgstr "Є два способи отримати значення з об’єкта:"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__context
+msgid ""
+"Context dictionary as Python expression, empty by default (Default: {})"
+msgstr ""
+"Список контекстів у форматі виразу Python, порожній за замовчуванням "
+"(Default: {})"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form_field__odoo_field_value
+msgid ""
+"Dot-separated path to field from the record, e.g. partner_id.name, or python"
+" code"
+msgstr ""
+"Шлях до поля запису, розділений крапками, напр. partner_id.name, або код "
+"Python"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__encoding
+msgid "Encoding to be applied to the generated CSV file. e.g. cp932"
+msgstr ""
+"Кодування, яке слід застосувати до створеного CSV-файлу, наприклад cp932"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__text_encoding
+msgid "Encoding to be applied to the generated Text file. e.g. cp932"
+msgstr ""
+"Кодування, яке слід застосувати до створеного текстового файлу, наприклад "
+"cp932"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__attachment_use
+msgid ""
+"If enabled, then the second time the user prints with same attachment name, "
+"it returns the previous report."
+msgstr ""
+"Якщо ввімкнено, то вдруге, коли користувач друкує з такою ж назвою "
+"вкладення, він повертає попередній звіт."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__encode_error_handling
+msgid ""
+"If nothing is selected, CSV export will fail with an error message when "
+"there is a character that fail to be encoded."
+msgstr ""
+"Якщо нічого не вибрано, експорт CSV завершиться помилкою, коли трапиться "
+"символ, який неможливо закодувати."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__text_encode_error_handling
+msgid ""
+"If nothing is selected, text export will fail with an error message when "
+"there is a character that fail to be encoded."
+msgstr ""
+"Якщо нічого не вибрано, експорт тексту завершиться помилкою, коли трапиться "
+"символ, який неможливо закодувати."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__multi
+msgid ""
+"If set to true, the action will not be displayed on the right toolbar of a "
+"form view."
+msgstr ""
+"Якщо встановити значення як Правильно, ця дія не буде відображена на правому"
+" виді форми."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__domain
+msgid ""
+"If set, the action will only appear on records that matches the domain."
+msgstr ""
+"Якщо задано, дія відображатиметься лише для записів, що відповідають домену."
+
+#. module: report_pdf_form
+#: model:ir.model,name:report_pdf_form.model_report_pdf_form_field
+msgid "Mapping of Odoo field to PDF form field"
+msgstr "Зіставлення поля Odoo з полем PDF-форми"
+
+#. module: report_pdf_form
+#: model:ir.model,name:report_pdf_form.model_report_pdf_form
+msgid "PDF Form Report Template"
+msgstr "Шаблон PDF-форми звіту"
+
+#. module: report_pdf_form
+#: model:ir.model,name:report_pdf_form.model_report_pdf_form_variable
+msgid "Reusable variable to be evaluated in form fields code"
+msgstr "Повторно використовувана змінна для обчислення в коді полів форми"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__line_ending
+msgid ""
+"Select the type of line ending in case the report needs to be output with "
+"other line ending than 'LF'."
+msgstr ""
+"Виберіть тип завершення рядка, якщо звіт потрібно виводити з іншим "
+"завершенням рядка, ніж 'LF'."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__report_file
+msgid ""
+"The path to the main report file (depending on Report Type) or empty if the "
+"content is in another field"
+msgstr ""
+"Шлях до основного файлу звіту (залежно від типу звіту), або залиште "
+"порожнім, якщо його вміст в іншому полі"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__footer_html
+msgid ""
+"This HTML will be displayed in the footer of this report.\n"
+"It's recommended to change Paper Format to a new one that fits correctly to this report by adjusting 'Bottom Margin (mm)' accordingly."
+msgstr ""
+"Цей HTML відображатиметься в нижньому колонтитулі звіту.\n"
+"Рекомендується змінити формат паперу на новий, що правильно відповідає цьому звіту, налаштувавши відповідно «Нижнє поле (мм)»."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__attachment
+msgid ""
+"This is the filename of the attachment used to store the printing result. "
+"Keep empty to not save the printed reports. You can use a python expression "
+"with the object and time variables."
+msgstr ""
+"Це ім'я файлу вкладення, яке використовується для збереження результату "
+"друку. Залиште порожнім, щоб не зберігати роздруковані звіти. Ви можете "
+"використовувати вираз python з об'єктами та змінами часу."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__print_report_name
+msgid ""
+"This is the filename of the report going to download. Keep empty to not "
+"change the report filename. You can use a python expression with the "
+"'object' and 'time' variables."
+msgstr ""
+"Це назва файлу звіту, який буде завантажено. Залиште порожнім, щоби не "
+"змінити назву файлу звіту. Ви можете використовувати вираз python зі "
+"змінними 'object' і 'time'."

@@ -20,7 +20,7 @@ msgstr ""
 #. module: report_xml
 #: model:ir.model,name:report_xml.model_report_report_xml_abstract
 msgid "Abstract XML Report"
-msgstr ""
+msgstr "Абстрактний XML-звіт"
 
 #. module: report_xml
 #: model:ir.model.fields,help:report_xml.field_ir_actions_report__xml_declaration
@@ -29,6 +29,8 @@ msgid ""
 "Add `<?xml encoding=\"...\" version=\"...\"?>` at the start of final report "
 "file."
 msgstr ""
+"Додати `<?xml encoding=\"...\" version=\"...\"?>` на початок кінцевого файлу"
+" звіту."
 
 #. module: report_xml
 #: model:ir.actions.report,name:report_xml.demo_xml_report
@@ -42,12 +44,13 @@ msgid ""
 "Encoding for XML reports. If nothing is selected, then UTF-8 will be "
 "applied."
 msgstr ""
+"Кодування для XML-звітів. Якщо нічого не вибрано, буде використано UTF-8."
 
 #. module: report_xml
 #: model:ir.model.fields,help:report_xml.field_ir_actions_report__xml_extension
 #: model:ir.model.fields,help:report_xml.field_report_pdf_form__xml_extension
 msgid "Extension for XML Reports, by default is `xml`"
-msgstr ""
+msgstr "Розширення для XML-звітів, за замовчуванням `xml`"
 
 #. module: report_xml
 #: model:ir.model.fields,help:report_xml.field_ir_actions_report__xsd_schema
@@ -56,6 +59,8 @@ msgid ""
 "File with XSD Schema for checking content of result report. Can be empty if "
 "validation is not required."
 msgstr ""
+"Файл зі схемою XSD для перевірки вмісту підсумкового звіту. Може бути "
+"порожнім, якщо перевірка не потрібна."
 
 #. module: report_xml
 #: model:ir.model,name:report_xml.model_ir_actions_report
@@ -77,6 +82,10 @@ msgid ""
 "browser PDF means the report will be rendered using Wkhtmltopdf and "
 "downloaded by the user."
 msgstr ""
+"Тип звіту, який буде відображено, кожен з яких має свій власний метод "
+"візуалізації. HTML означає, що звіт буде відкрито безпосередньо у вашому "
+"браузері PDF, що означає, що звіт буде відображено за допомогою Wkhtmltopdf "
+"і завантажено користувачем."
 
 #. module: report_xml
 #: model:ir.model.fields.selection,name:report_xml.selection__ir_actions_report__xml_encoding__utf-8

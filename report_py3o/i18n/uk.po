@@ -77,6 +77,8 @@ msgid ""
 "If the user does not provide a template this will be used it should be a "
 "relative path to root of YOUR module or an absolute path on your server."
 msgstr ""
+"Якщо користувач не вказав шаблон, буде використано цей; це має бути "
+"відносний шлях до кореня ВАШОГО модуля або абсолютний шлях на сервері."
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__py3o_multi_in_one
@@ -87,6 +89,9 @@ msgid ""
 " option, Odoo will generate instead a single report for the selected "
 "records."
 msgstr ""
+"Якщо звіт запускається для кількох записів, за замовчуванням Odoo створює "
+"ZIP із такою кількістю файлів, скільки вибрано записів. Якщо ввімкнути цей "
+"параметр, Odoo натомість створить один звіт для вибраних записів."
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__ir_actions_report_id
@@ -224,7 +229,7 @@ msgstr "Шаблони Py3o"
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_py3o_template
 msgid "Py3o template"
-msgstr ""
+msgstr "Шаблон Py3o"
 
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_ir_actions_report
@@ -252,7 +257,7 @@ msgstr "Шаблон"
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__module
 #: model:ir.model.fields,help:report_py3o.field_report_pdf_form__module
 msgid "The implementer module that provides this report"
-msgstr ""
+msgstr "Модуль-реалізатор, який надає цей звіт"
 
 #. module: report_py3o
 #. odoo-python

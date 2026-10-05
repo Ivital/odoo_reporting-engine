@@ -32,3 +32,28 @@ msgstr "Ігнорувати"
 #: model:ir.model.fields.selection,name:report_csv.selection__ir_actions_report__encode_error_handling__replace
 msgid "Replace"
 msgstr "Замінити"
+
+#. module: report_csv
+#: model:ir.model,name:report_csv.model_report_report_csv_abstract
+msgid "Abstract Model for CSV reports"
+msgstr "Абстрактна модель для CSV-звітів"
+
+#. module: report_csv
+#: model:ir.model.fields,help:report_csv.field_ir_actions_report__encoding
+msgid "Encoding to be applied to the generated CSV file. e.g. cp932"
+msgstr ""
+"Кодування, яке слід застосувати до створеного CSV-файлу, наприклад cp932"
+
+#. module: report_csv
+#: model:ir.model.fields,help:report_csv.field_ir_actions_report__encode_error_handling
+msgid ""
+"If nothing is selected, CSV export will fail with an error message when "
+"there is a character that fail to be encoded."
+msgstr ""
+"Якщо нічого не вибрано, експорт CSV завершиться помилкою, коли трапиться "
+"символ, який неможливо закодувати."
+
+#. module: report_csv
+#: model:ir.model,name:report_csv.model_report_report_csv_partner_csv
+msgid "Report Partner to CSV"
+msgstr "Експорт звіту партнера в CSV"

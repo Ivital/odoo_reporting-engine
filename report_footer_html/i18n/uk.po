@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_footer_html.field_ir_actions_report__footer_html
 msgid "Extra Footer"
 msgstr "Додатковий нижній колонтитул"
+
+#. module: report_footer_html
+#: model:ir.model.fields,help:report_footer_html.field_ir_actions_report__footer_html
+msgid ""
+"This HTML will be displayed in the footer of this report.\n"
+"It's recommended to change Paper Format to a new one that fits correctly to this report by adjusting 'Bottom Margin (mm)' accordingly."
+msgstr ""
+"Цей HTML відображатиметься в нижньому колонтитулі звіту.\n"
+"Рекомендується змінити формат паперу на новий, що правильно відповідає цьому звіту, налаштувавши відповідно «Нижнє поле (мм)»."

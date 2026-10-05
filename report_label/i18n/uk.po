@@ -252,3 +252,24 @@ msgstr "Налаштування формату сторінки"
 #: model:ir.model.fields.selection,name:report_label.selection__ir_actions_server__state__report_label
 msgid "Print self-adhesive labels"
 msgstr "Друкувати самоклейні етикетки"
+
+#. module: report_label
+#: model:ir.model.fields,help:report_label.field_report_label_wizard__offset
+msgid "Number of labels to skip when printing"
+msgstr "Кількість етикеток, які потрібно пропустити під час друку"
+
+#. module: report_label
+#: model:ir.model,name:report_label.model_report_label_wizard
+msgid "Report Label Wizard"
+msgstr "Майстер етикеток звіту"
+
+#. module: report_label
+#: model:ir.model,name:report_label.model_report_label_wizard_line
+msgid "Report Label Wizard Line"
+msgstr "Рядок майстра етикеток звіту"
+
+#. module: report_label
+#: model:ir.model.fields,help:report_label.field_ir_actions_server__label_template_view_id
+#: model:ir.model.fields,help:report_label.field_ir_cron__label_template_view_id
+msgid "The QWeb template key to render the labels"
+msgstr "Ключ шаблону QWeb для відображення етикеток"

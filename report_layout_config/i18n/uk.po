@@ -42,3 +42,23 @@ msgstr "Повне зображення заголовка"
 #: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
 msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
 msgstr "Сторінка: <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_base_document_layout__full_footer_img
+msgid "Replaces whole footer, disables footer logo"
+msgstr "Повністю замінює нижній колонтитул і вимикає логотип у ньому"
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_base_document_layout__full_header_img
+msgid "Replaces whole header with image"
+msgstr "Повністю замінює заголовок зображенням"
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_res_company__full_footer_img
+msgid "This image will replace all footer."
+msgstr "Це зображення замінить весь нижній колонтитул."
+
+#. module: report_layout_config
+#: model:ir.model.fields,help:report_layout_config.field_res_company__full_header_img
+msgid "This image will replace all header."
+msgstr "Це зображення замінить весь верхній колонтитул."

@@ -109,3 +109,36 @@ msgstr "Зображення звіту"
 #: model:ir.model.fields,field_description:report_positioned_image.field_report_positioned_image__respect_image_ratio
 msgid "Respect Image Ratio"
 msgstr "Зберігати пропорції зображення"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,help:report_positioned_image.field_ir_actions_report__include_company_images
+#: model:ir.model.fields,help:report_positioned_image.field_report_pdf_form__include_company_images
+msgid ""
+"If checked, company-level images will be shown in addition to report-"
+"specific images."
+msgstr ""
+"Якщо позначено, окрім зображень конкретного звіту показуватимуться "
+"зображення рівня компанії."
+
+#. module: report_positioned_image
+#: model:ir.model.fields,help:report_positioned_image.field_report_positioned_image__company_id
+msgid ""
+"Leave empty to apply to all companies. Set a specific company to restrict "
+"this image to that company only."
+msgstr ""
+"Залиште порожнім для всіх компаній. Укажіть конкретну компанію, щоб обмежити"
+" це зображення лише нею."
+
+#. module: report_positioned_image
+#: model:ir.model,name:report_positioned_image.model_report_positioned_image
+msgid "Report Positioned Image"
+msgstr "Позиційоване зображення звіту"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,help:report_positioned_image.field_report_positioned_image__respect_image_ratio
+msgid ""
+"When enabled, changing width or height will automatically adjust the other "
+"dimension to maintain the original image aspect ratio."
+msgstr ""
+"Якщо ввімкнено, зміна ширини або висоти автоматично коригуватиме інший "
+"розмір для збереження пропорцій зображення."

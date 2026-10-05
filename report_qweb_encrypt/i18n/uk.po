@@ -46,3 +46,19 @@ msgstr "Автоматично згенерований пароль"
 #: model:ir.model.fields.selection,name:report_qweb_encrypt.selection__ir_actions_report__encrypt__manual
 msgid "Manual Input Password"
 msgstr "Пароль ручного введення"
+
+#. module: report_qweb_encrypt
+#: model:ir.model.fields,help:report_qweb_encrypt.field_ir_actions_report__encrypt
+#: model:ir.model.fields,help:report_qweb_encrypt.field_report_pdf_form__encrypt
+msgid ""
+"* Manual Input Password: allow user to key in password on the fly. This option available only on document print action.\n"
+"* Auto Generated Password: system will auto encrypt password when PDF created, based on provided python syntax."
+msgstr ""
+"* Пароль, введений вручну: дозволяє користувачу вводити пароль безпосередньо. Доступно лише для дії друку документа.\n"
+"* Автоматично згенерований пароль: система автоматично зашифрує пароль під час створення PDF на основі заданого синтаксису Python."
+
+#. module: report_qweb_encrypt
+#: model:ir.model.fields,help:report_qweb_encrypt.field_ir_actions_report__encrypt_password
+#: model:ir.model.fields,help:report_qweb_encrypt.field_report_pdf_form__encrypt_password
+msgid "Python code syntax to gnerate password."
+msgstr "Синтаксис коду Python для генерування пароля."

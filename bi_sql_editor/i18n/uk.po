@@ -28,7 +28,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/bi_sql_editor/models/bi_sql_view.py:0
 msgid "%s (Copy)"
-msgstr ""
+msgstr "%s (Копія)"
 
 #. module: bi_sql_editor
 #. odoo-python
@@ -79,12 +79,12 @@ msgstr "Середнє"
 #. module: bi_sql_editor
 #: model:ir.model,name:bi_sql_editor.model_bi_sql_view
 msgid "BI SQL View"
-msgstr ""
+msgstr "Представлення BI SQL"
 
 #. module: bi_sql_editor
 #: model:ir.model,name:bi_sql_editor.model_bi_sql_view_field
 msgid "Bi SQL View Field"
-msgstr ""
+msgstr "Поле представлення BI SQL"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__parent_menu_id
@@ -93,6 +93,9 @@ msgid ""
 "overwriting the parent menu on which the menu related to the SQL report will"
 " be created."
 msgstr ""
+"Якщо призначити значення цьому полю до ручного створення інтерфейсу, ви "
+"перевизначите батьківське меню, у якому буде створено меню, пов’язане зі "
+"звітом SQL."
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__group_operator
@@ -100,12 +103,15 @@ msgid ""
 "By default, Odoo will sum the values when grouping. If you wish to alter the"
 " behaviour, choose an alternate Group Operator"
 msgstr ""
+"Типово Odoo підсумовує значення під час групування. Щоб змінити поведінку, "
+"виберіть інший оператор групування"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__is_group_by
 msgid ""
 "Check this box if you want to create a 'group by' option in the search view"
 msgstr ""
+"Позначте, якщо потрібно створити параметр «Групувати за» у поданні пошуку"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__is_index
@@ -113,6 +119,9 @@ msgid ""
 "Check this box if you want to create an index on that field. This is "
 "recommended for searchable and groupable fields, to reduce duration"
 msgstr ""
+"Позначте цей прапорець, якщо хочете створити індекс для цього поля. Це "
+"рекомендовано для полів, за якими виконують пошук і групування, щоб "
+"скоротити час виконання."
 
 #. module: bi_sql_editor
 #: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__graph_type__col
@@ -122,7 +131,7 @@ msgstr "Стовпець"
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__view_order
 msgid "Comma-separated text. Possible values: \"graph\", \"pivot\" or \"list\""
-msgstr ""
+msgstr "Текст, розділений комами. Можливі значення: \"graph\", \"pivot\" або \"list\""
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__computed_action_context
@@ -140,6 +149,8 @@ msgid ""
 "Context value that will be inserted for this field in all the views. "
 "Important note : please write a context with single quote."
 msgstr ""
+"Значення контексту, що вставлятиметься для цього поля в усіх поданнях. "
+"Важливо: записуйте контекст з одинарними лапками."
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
@@ -166,7 +177,7 @@ msgstr "Дата створення"
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__cron_id
 msgid "Cron Task that will refresh the materialized view"
-msgstr ""
+msgstr "Cron-завдання для оновлення матеріалізованого представлення"
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
@@ -184,6 +195,8 @@ msgid ""
 "Define here a context that will be used by default, when creating the "
 "action."
 msgstr ""
+"Визначте тут контекст, який типово використовуватиметься під час створення "
+"дії."
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__domain_force
@@ -192,6 +205,9 @@ msgid ""
 " Take care to use field name prefixed by 'x_'. A global 'ir.rule' will be created. A typical Multi Company rule is for exemple \n"
 " ['|', ('x_company_id','child_of', [user.company_id.id]),('x_company_id','=',False)]."
 msgstr ""
+"Визначте тут обмеження доступу до даних.\n"
+" Обов'язково використовуйте назву поля з префіксом 'x_'. Буде створено глобальне правило 'ir.rule'. Типове правило для кількох компаній, наприклад:\n"
+" ['|', ('x_company_id','child_of', [user.company_id.id]),('x_company_id','=',False)]."
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
@@ -255,6 +271,8 @@ msgid ""
 "For 'Many2one' Odoo field.\n"
 " Comodel of the field."
 msgstr ""
+"Для поля Odoo 'Many2one'.\n"
+"Комодель поля."
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__selection
@@ -262,16 +280,18 @@ msgid ""
 "For 'Selection' Odoo field.\n"
 " List of options, specified as a Python expression defining a list of (key, label) pairs. For example: [('blue','Blue'), ('yellow','Yellow')]"
 msgstr ""
+"Для поля Odoo типу 'Selection'.\n"
+" Список варіантів, заданий як вираз Python, що визначає список пар (ключ, мітка). Наприклад: [('blue','Blue'), ('yellow','Yellow')]"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__model_name
 msgid "Full Qualified Name of the transient model that will be created."
-msgstr ""
+msgstr "Повна кваліфікована назва тимчасової моделі, яку буде створено."
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__view_name
 msgid "Full name of the SQL view"
-msgstr ""
+msgstr "Повна назва SQL-представлення"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__graph_type
@@ -596,6 +616,10 @@ msgid ""
 " * Do not use 'SELECT *' or 'SELECT table.*';\n"
 " * prefix the name of the selectable columns by 'x_';"
 msgstr ""
+"SQL-запит, який буде використано як подання. Зверніть увагу:\n"
+" * задайте назву для всіх вибраних полів, особливо якщо використовуєте SQL-функції (наприклад EXTRACT, ...);\n"
+" * не використовуйте 'SELECT *' або 'SELECT table.*';\n"
+" * додавайте до назв доступних для вибору колонок префікс 'x_';"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__sql_type
@@ -605,7 +629,7 @@ msgstr "Тип SQL"
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__sql_type
 msgid "SQL Type in the database"
-msgstr ""
+msgstr "Тип SQL у базі даних"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__bi_sql_view_id
@@ -631,7 +655,7 @@ msgstr "Опції вибору"
 #. module: bi_sql_editor
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__size
 msgid "Size of the materialized view and its indexes"
-msgstr ""
+msgstr "Розмір матеріалізованого представлення та його індексів"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__state
@@ -659,6 +683,10 @@ msgid ""
 "https://www.postgresql.org/docs/current/static/sql-syntax-lexical.html#SQL-"
 "SYNTAX-IDENTIFIERS"
 msgstr ""
+"Суфікс SQL-подання. Повну SQL-назву буде обчислено з префіксом "
+"'x_bi_sql_view_'. Синтаксис має відповідати: "
+"https://www.postgresql.org/docs/current/static/sql-syntax-lexical.html#SQL-"
+"SYNTAX-IDENTIFIERS"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__group_operator__sum
@@ -683,6 +711,7 @@ msgstr ""
 #: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__field_description
 msgid "This will be used as the name of the Odoo field, displayed for users"
 msgstr ""
+"Це використовуватиметься як назва поля Odoo, що відображається користувачам"
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
@@ -710,6 +739,9 @@ msgid ""
 " create a new field. If empty, this field will not be displayed neither "
 "available for search or group by function"
 msgstr ""
+"Тип поля Odoo, яке буде створено. Залиште порожнім, якщо не хочете "
+"створювати нове поле. Якщо порожньо, це поле не відображатиметься й не буде "
+"доступне для пошуку або групування."
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form

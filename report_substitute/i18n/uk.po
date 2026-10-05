@@ -70,3 +70,8 @@ msgstr "Правила заміни"
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__substitution_action_report_id
 msgid "Substitution Report Action"
 msgstr "Дія звіту заміни"
+
+#. module: report_substitute
+#: model:ir.model,name:report_substitute.model_ir_actions_report_substitution_rule
+msgid "Action Report Substitution Rule"
+msgstr "Правило заміни дії звіту"

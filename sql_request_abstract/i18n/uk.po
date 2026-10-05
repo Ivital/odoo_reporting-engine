@@ -173,12 +173,12 @@ msgstr "SQL-запит"
 #. module: sql_request_abstract
 #: model:ir.module.category,name:sql_request_abstract.category_sql_abstract
 msgid "SQL Request"
-msgstr ""
+msgstr "SQL-запит"
 
 #. module: sql_request_abstract
 #: model:ir.model,name:sql_request_abstract.model_sql_request_mixin
 msgid "SQL Request Mixin"
-msgstr ""
+msgstr "Міксин SQL-запиту"
 
 #. module: sql_request_abstract
 #: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
@@ -287,6 +287,8 @@ msgid ""
 "You can't use the following words: DELETE, DROP, CREATE, INSERT, ALTER, "
 "TRUNCATE, EXECUTE, UPDATE."
 msgstr ""
+"Не можна використовувати такі слова: DELETE, DROP, CREATE, INSERT, ALTER, "
+"TRUNCATE, EXECUTE, UPDATE."
 
 #~ msgid "Display Name"
 #~ msgstr "Назва для відображення"

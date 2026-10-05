@@ -51,3 +51,27 @@ msgstr ""
 "Завантажте PDF-файл для використання як водяний знак компанії. У звітах, де "
 "він потрібен, активуйте налаштування «використовувати водяний знак "
 "компанії»."
+
+#. module: report_qweb_pdf_watermark
+#: model:ir.model.fields,help:report_qweb_pdf_watermark.field_ir_actions_report__pdf_watermark_expression
+#: model:ir.model.fields,help:report_qweb_pdf_watermark.field_report_pdf_form__pdf_watermark_expression
+msgid ""
+"An expression yielding the base64 encoded data to be used as watermark. \n"
+"You have access to variables `env` and `docs`"
+msgstr ""
+"Вираз, що повертає дані в кодуванні base64 для використання як водяного знака.\n"
+"Вам доступні змінні `env` і `docs`"
+
+#. module: report_qweb_pdf_watermark
+#: model:ir.model.fields,help:report_qweb_pdf_watermark.field_ir_actions_report__pdf_watermark
+#: model:ir.model.fields,help:report_qweb_pdf_watermark.field_report_pdf_form__pdf_watermark
+msgid "Upload an pdf file to use as an watermark on this report."
+msgstr "Завантажте PDF-файл для використання як водяного знака в цьому звіті."
+
+#. module: report_qweb_pdf_watermark
+#: model:ir.model.fields,help:report_qweb_pdf_watermark.field_ir_actions_report__use_company_watermark
+#: model:ir.model.fields,help:report_qweb_pdf_watermark.field_report_pdf_form__use_company_watermark
+msgid "Use the pdf watermark defined globally in the company settings."
+msgstr ""
+"Використовувати PDF-водяний знак, глобально визначений у налаштуваннях "
+"компанії."

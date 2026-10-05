@@ -69,7 +69,7 @@ msgstr "Категорія"
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi_threshold_range__color
 msgid "Choose your color"
-msgstr ""
+msgstr "Виберіть колір"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__color
@@ -195,7 +195,7 @@ msgstr "Історія"
 #. module: kpi
 #: model:ir.model,name:kpi.model_kpi_history
 msgid "History of the KPI"
-msgstr ""
+msgstr "Історія KPI"
 
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__hour
@@ -246,7 +246,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model,name:kpi.model_kpi_category
 msgid "KPI Category"
-msgstr ""
+msgstr "Категорія KPI"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__kpi_code
@@ -276,12 +276,12 @@ msgstr "Історія KPI"
 #. module: kpi
 #: model:ir.model,name:kpi.model_kpi_threshold
 msgid "KPI Threshold"
-msgstr ""
+msgstr "Поріг KPI"
 
 #. module: kpi
 #: model:ir.model,name:kpi.model_kpi_threshold_range
 msgid "KPI Threshold Range"
-msgstr ""
+msgstr "Діапазон порога KPI"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold__kpi_ids
@@ -335,7 +335,7 @@ msgstr ""
 #. module: kpi
 #: model:res.groups,name:kpi.group_kpi_manager
 msgid "Manage KPI's"
-msgstr ""
+msgstr "Керування KPI"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_type
@@ -492,6 +492,8 @@ msgid ""
 "Only active KPIs will be updated by the scheduler based on the periodicity "
 "configuration."
 msgstr ""
+"Планувальник оновлюватиме лише активні KPI відповідно до налаштувань "
+"періодичності."
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__periodicity
@@ -540,6 +542,7 @@ msgstr "SQL — локальна БД"
 #: model:ir.model.fields,help:kpi.field_kpi__kpi_code
 msgid "SQL code must return the result as 'value' (i.e. 'SELECT 5 AS value')."
 msgstr ""
+"SQL-код має повертати результат як 'value' (наприклад, 'SELECT 5 AS value')."
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__activity_state

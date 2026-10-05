@@ -18,3 +18,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_partner_address.field_res_users__address_details
 msgid "Address Details"
 msgstr "Деталі адреси"
+
+#. module: report_partner_address
+#: model:ir.model.fields,help:report_partner_address.field_res_partner__address_details
+#: model:ir.model.fields,help:report_partner_address.field_res_users__address_details
+msgid ""
+"Custom address format used in reports and portal pages. When set, this "
+"replaces the standard address format for external display."
+msgstr ""
+"Власний формат адреси для звітів і сторінок порталу. Якщо задано, він "
+"замінює стандартний формат адреси для зовнішнього відображення."

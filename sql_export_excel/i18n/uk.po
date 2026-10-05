@@ -42,3 +42,36 @@ msgstr "Позиція рядка"
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__sheet_position
 msgid "Sheet Position"
 msgstr "Позиція аркуша"
+
+#. module: sql_export_excel
+#: model:ir.model.fields,help:sql_export_excel.field_sql_export__attachment_id
+msgid ""
+"If you configure an excel file (in xlsx format) here, the result of the query will be injected in it.\n"
+"It is usefull to feed data in a excel file pre-configured with calculation"
+msgstr ""
+"Якщо тут налаштувати файл Excel (формат xlsx), результат запиту буде вставлено в нього.\n"
+"Це корисно для заповнення даними попередньо налаштованого Excel-файлу з розрахунками."
+
+#. module: sql_export_excel
+#: model:ir.model.fields,help:sql_export_excel.field_sql_export__col_position
+msgid "Indicate from which column the result of the query should be injected."
+msgstr "Вкажіть, з якого стовпця слід вставляти результат запиту."
+
+#. module: sql_export_excel
+#: model:ir.model.fields,help:sql_export_excel.field_sql_export__row_position
+msgid "Indicate from which row the result of the query should be injected."
+msgstr "Вкажіть, з якого рядка слід вставляти результат запиту."
+
+#. module: sql_export_excel
+#: model:ir.model.fields,help:sql_export_excel.field_sql_export__header
+msgid "Indicate if the header should be exported to the file."
+msgstr "Визначає, чи потрібно експортувати заголовок у файл."
+
+#. module: sql_export_excel
+#: model:ir.model.fields,help:sql_export_excel.field_sql_export__sheet_position
+msgid ""
+"Indicate the sheet's position of the excel template where the result of the "
+"sql query should be injected."
+msgstr ""
+"Укажіть позицію аркуша в шаблоні Excel, куди потрібно вставити результат "
+"SQL-запиту."

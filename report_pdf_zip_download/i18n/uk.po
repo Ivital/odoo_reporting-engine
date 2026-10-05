@@ -18,3 +18,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_pdf_zip_download.field_report_pdf_form__zip_download
 msgid "Zip Download"
 msgstr "Завантаження ZIP"
+
+#. module: report_pdf_zip_download
+#: model:ir.model.fields,help:report_pdf_zip_download.field_ir_actions_report__zip_download
+#: model:ir.model.fields,help:report_pdf_zip_download.field_report_pdf_form__zip_download
+msgid ""
+"If enabled, the report will be downloaded as a zip file for multiple "
+"records."
+msgstr ""
+"Якщо ввімкнено, для кількох записів звіт буде завантажено як ZIP-файл."

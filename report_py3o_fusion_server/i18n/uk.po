@@ -152,7 +152,7 @@ msgstr "За замовчуванням"
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_pdf_options
 msgid "Define PDF export options for Libreoffice"
-msgstr ""
+msgstr "Визначити параметри експорту PDF для LibreOffice"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_reduce_resolution__none
@@ -193,7 +193,7 @@ msgstr "Шифрувати"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__image_jpeg_quality
 msgid "Enter a percentage between 0 and 100."
-msgstr ""
+msgstr "Введіть відсоток від 0 до 100."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_hidden_slides
@@ -309,6 +309,8 @@ msgid ""
 "If you enable this option, you will not be able to password-protect the "
 "document or apply other security settings."
 msgstr ""
+"Якщо ввімкнути цей параметр, документ не можна буде захистити паролем або "
+"застосувати інші налаштування безпеки."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_server__url
@@ -316,6 +318,8 @@ msgid ""
 "If your Py3o Fusion server is on the same machine and runs on the default "
 "port, the URL is http://localhost:8765/form"
 msgstr ""
+"Якщо сервер Py3o Fusion працює на тій самій машині й типовому порту, URL: "
+"http://localhost:8765/form"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -403,6 +407,8 @@ msgid ""
 "Native formats will be processed without a server. You must use this mode if"
 " you call methods on your model into the template."
 msgstr ""
+"Нативні формати оброблятимуться без сервера. Використовуйте цей режим, якщо "
+"в шаблоні викликаються методи вашої моделі."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__0
@@ -443,6 +449,8 @@ msgid ""
 "PDF options can be set per Py3o Server but also per report. If both are "
 "defined, the options on the report are used."
 msgstr ""
+"Параметри PDF можна задавати для кожного сервера Py3o і для кожного звіту. "
+"Якщо визначено обидва, використовуються параметри звіту."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_ir_actions_report__pdf_options_id
@@ -451,6 +459,8 @@ msgid ""
 "PDF options can be set per report, but also per Py3o Server. If both are "
 "defined, the options on the report are used."
 msgstr ""
+"Параметри PDF можна задавати для кожного звіту, а також для сервера Py3o. "
+"Якщо визначено обидва, використовуються параметри звіту."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__page_layout
@@ -476,7 +486,7 @@ msgstr "Пароль дозволу"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__zoom
 msgid "Possible values: from 50 to 1600"
-msgstr ""
+msgstr "Можливі значення: від 50 до 1600"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__printing
@@ -503,7 +513,7 @@ msgstr "Сервери Py3o"
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_server
 msgid "Py3o server"
-msgstr ""
+msgstr "Сервер Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_reduce_resolution
@@ -518,7 +528,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_py3o_report
 msgid "Report Py30"
-msgstr ""
+msgstr "Звіт Py3o"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__resize_windows_initial_page
