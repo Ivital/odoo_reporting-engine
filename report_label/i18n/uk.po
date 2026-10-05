@@ -1,0 +1,120 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__create_uid
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__create_uid
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__create_date
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__create_date
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__display_name
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__display_name
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: report_label
+#: model:ir.ui.menu,name:report_label.paperformat_label_menu
+msgid "Label Paper Formats"
+msgstr "Формати паперу етикеток"
+
+#. module: report_label
+#: model:ir.actions.report,name:report_label.report_label
+msgid "Label Report"
+msgstr "Звіт етикетки"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Left (mm)"
+msgstr "Зліва (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__line_ids
+msgid "Lines"
+msgstr "Рядки"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__model_id
+msgid "Model"
+msgstr "Модель"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__offset
+msgid "Offset"
+msgstr "Зміщення"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__paperformat_id
+msgid "Paper Format"
+msgstr "Формат паперу"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.report_label_wizard_view_form
+msgid "Print"
+msgstr "Друк"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__quantity
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.report_label_wizard_view_form
+msgid "Record"
+msgstr "Запис"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__res_name
+msgid "Res Name"
+msgstr "Назва ресурсу"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__res_id
+msgid "Resource ID"
+msgstr "ID ресурсу"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.report_label_wizard_view_form
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Top (mm)"
+msgstr "Зверху (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__wizard_id
+msgid "Wizard"
+msgstr "Майстер"

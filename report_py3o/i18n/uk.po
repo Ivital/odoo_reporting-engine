@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: report_py3o
 #. odoo-python
@@ -47,7 +46,7 @@ msgstr "?????????? ?????? ????????????????????????"
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_fallback
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__py3o_template_fallback
 msgid "Fallback"
-msgstr ""
+msgstr "Резервний варіант"
 
 #. module: report_py3o
 #. odoo-python
@@ -58,7 +57,7 @@ msgstr ""
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 msgid "File Type"
-msgstr ""
+msgstr "Тип файлу"
 
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
@@ -84,8 +83,9 @@ msgstr ""
 #: model:ir.model.fields,help:report_py3o.field_report_pdf_form__py3o_multi_in_one
 msgid ""
 "If you execute a report on several records, by default Odoo will generate a "
-"ZIP file that contains as many files as selected records. If you enable this "
-"option, Odoo will generate instead a single report for the selected records."
+"ZIP file that contains as many files as selected records. If you enable this"
+" option, Odoo will generate instead a single report for the selected "
+"records."
 msgstr ""
 
 #. module: report_py3o
@@ -138,7 +138,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__module
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__module
 msgid "Module"
-msgstr ""
+msgstr "Модуль"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__msg_py3o_report_not_available
@@ -155,7 +155,7 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: report_py3o
 #. odoo-python
@@ -219,7 +219,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:report_py3o.py3o_template_configuration_action
 #: model:ir.ui.menu,name:report_py3o.py3o_template_configuration_menu
 msgid "Py3o Templates"
-msgstr ""
+msgstr "Шаблони Py3o"
 
 #. module: report_py3o
 #: model:ir.model,name:report_py3o.model_py3o_template
@@ -246,7 +246,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_id
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__py3o_template_id
 msgid "Template"
-msgstr ""
+msgstr "Шаблон"
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__module
@@ -258,11 +258,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/report_py3o/models/ir_actions_report.py:0
 msgid ""
-"The libreoffice runtime is required to genereate the py3o report '%s' but is "
-"not found into the bin path. You must install the libreoffice runtime on the "
-"server. If the runtime is already installed and is not found by Odoo, you "
-"can provide the full path to the runtime by setting the key 'py3o."
-"conversion_command' into the configuration parameters."
+"The libreoffice runtime is required to genereate the py3o report '%s' but is"
+" not found into the bin path. You must install the libreoffice runtime on "
+"the server. If the runtime is already installed and is not found by Odoo, "
+"you can provide the full path to the runtime by setting the key "
+"'py3o.conversion_command' into the configuration parameters."
 msgstr ""
 
 #. module: report_py3o

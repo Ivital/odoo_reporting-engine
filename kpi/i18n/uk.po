@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_needaction
@@ -28,12 +27,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi__active
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_filter
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Дії"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__activity_exception_decoration
@@ -65,7 +64,7 @@ msgstr "Категорії"
 #: model:ir.model.fields,field_description:kpi.field_kpi__category_id
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_category_form
 msgid "Category"
-msgstr "Category"
+msgstr "Категорія"
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi_threshold_range__color
@@ -77,7 +76,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi_history__color
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__color
 msgid "Color"
-msgstr ""
+msgstr "Колір"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__company_id
@@ -85,7 +84,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold__company_id
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: kpi
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_form
@@ -118,12 +117,12 @@ msgstr "Дата створення"
 #. module: kpi
 #: model:ir.ui.menu,name:kpi.menu_configuration_kpi_dbsource
 msgid "Data Sources"
-msgstr ""
+msgstr "Джерела даних"
 
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__day
 msgid "Day"
-msgstr ""
+msgstr "День"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__description
@@ -170,7 +169,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Підписники"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_partner_ids
@@ -185,13 +184,13 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Має повідомлення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__history_ids
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_form
 msgid "History"
-msgstr ""
+msgstr "Історія"
 
 #. module: kpi
 #: model:ir.model,name:kpi.model_kpi_history
@@ -201,7 +200,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__hour
 msgid "Hour"
-msgstr ""
+msgstr "Година"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__id
@@ -215,7 +214,7 @@ msgstr "ID"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__activity_exception_icon
@@ -235,7 +234,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Є підписником"
 
 #. module: kpi
 #: model:ir.actions.act_window,name:kpi.open_kpi_list
@@ -252,7 +251,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__kpi_code
 msgid "KPI Code"
-msgstr ""
+msgstr "Код KPI"
 
 #. module: kpi
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_form
@@ -301,7 +300,7 @@ msgstr ""
 #: model:ir.ui.menu,name:kpi.menu_configuration_kpi_kpi
 #: model:ir.ui.menu,name:kpi.menu_kpi_dasboard
 msgid "Key Performance Indicators"
-msgstr ""
+msgstr "Ключові показники ефективності"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__write_uid
@@ -341,12 +340,12 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_type
 msgid "Max Type"
-msgstr ""
+msgstr "Макс. тип"
 
 #. module: kpi
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_threshold_range_form
 msgid "Maximum"
-msgstr ""
+msgstr "Максимум"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_code
@@ -372,7 +371,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold__invalid_message
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__invalid_message
 msgid "Message"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_has_error
@@ -382,17 +381,17 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_type
 msgid "Min Type"
-msgstr ""
+msgstr "Мін. тип"
 
 #. module: kpi
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_threshold_range_form
 msgid "Minimum"
-msgstr ""
+msgstr "Мінімум"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_code
@@ -436,7 +435,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold__name
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__activity_date_deadline
@@ -495,7 +494,7 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__periodicity
 msgid "Periodicity"
-msgstr ""
+msgstr "Періодичність"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__periodicity_uom
@@ -510,7 +509,7 @@ msgstr ""
 #. module: kpi
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_threshold_range_form
 msgid "Range"
-msgstr ""
+msgstr "Діапазон"
 
 #. module: kpi
 #: model:ir.actions.act_window,name:kpi.open_threshold_range_list
@@ -518,7 +517,7 @@ msgstr ""
 #: model:ir.ui.menu,name:kpi.menu_configuration_kpi_range
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_threshold_form
 msgid "Ranges"
-msgstr ""
+msgstr "Діапазони"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__activity_user_id
@@ -553,7 +552,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi__threshold_id
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_threshold_form
 msgid "Threshold"
-msgstr ""
+msgstr "Порогове значення"
 
 #. module: kpi
 #: model:ir.actions.act_window,name:kpi.open_threshold_list
@@ -561,7 +560,7 @@ msgstr ""
 #: model:ir.ui.menu,name:kpi.menu_configuration_kpi_threshold
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_threshold_range_form
 msgid "Thresholds"
-msgstr ""
+msgstr "Порогові значення"
 
 #. module: kpi
 #. odoo-python
@@ -584,13 +583,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold__valid
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__valid
 msgid "Valid"
-msgstr ""
+msgstr "Дійсний"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__value
 #: model:ir.model.fields,field_description:kpi.field_kpi_history__value
 msgid "Value"
-msgstr ""
+msgstr "Значення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__website_message_ids

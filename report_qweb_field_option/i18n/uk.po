@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__digits
+msgid "Digits"
+msgstr "Цифри"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__domain
+msgid "Domain"
+msgstr "Домен"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_id
+msgid "Field"
+msgstr "Поле"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_name
+msgid "Field Name"
+msgstr "Назва поля"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_type
+msgid "Field Type"
+msgstr "Тип поля"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_id
+#: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
+msgid "Model"
+msgstr "Модель"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_name
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_options
+msgid "Options"
+msgstr "Параметри"
+
+#. module: report_qweb_field_option
+#: model:ir.actions.act_window,name:report_qweb_field_option.action_qweb_field_options_view
+#: model:ir.model,name:report_qweb_field_option.model_qweb_field_options
+#: model:ir.ui.menu,name:report_qweb_field_option.menu_qweb_field_options
+msgid "Qweb Field Options"
+msgstr "Параметри поля QWeb"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_id
+msgid "UoM"
+msgstr "Од. вим."
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_field_id
+msgid "UoM Field"
+msgstr "Поле од. вим."
