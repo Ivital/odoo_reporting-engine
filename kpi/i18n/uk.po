@@ -159,12 +159,12 @@ msgstr "Зовнішнє джерело БД"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_dbsource_id
 msgid "External DB Source Maximum"
-msgstr ""
+msgstr "Максимум зовнішнього джерела БД"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_dbsource_id
 msgid "External DB Source Minimum"
-msgstr ""
+msgstr "Мінімум зовнішнього джерела БД"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_follower_ids
@@ -179,7 +179,7 @@ msgstr "Підписники (контрагенти)"
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__has_message
@@ -219,17 +219,17 @@ msgstr "Іконка"
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Піктограма для позначення дії-винятку."
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_is_follower
@@ -261,7 +261,7 @@ msgstr "Обчислення KPI"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__kpi_type
 msgid "KPI Computation Type"
-msgstr ""
+msgstr "Тип обчислення KPI"
 
 #. module: kpi
 #: model:ir.actions.act_window,name:kpi.open_kpi_dashboard
@@ -350,7 +350,7 @@ msgstr "Максимум"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_code
 msgid "Maximum Computation Code"
-msgstr ""
+msgstr "Код максимального обчислення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_error
@@ -360,7 +360,7 @@ msgstr "Максимальна похибка"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_fixed_value
 msgid "Maximum Fixed Value"
-msgstr ""
+msgstr "Максимальне фіксоване значення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__max_value
@@ -396,7 +396,7 @@ msgstr "Мінімум"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_code
 msgid "Minimum Computation Code"
-msgstr ""
+msgstr "Код мінімального обчислення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_error
@@ -406,7 +406,7 @@ msgstr "Мінімальна похибка"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_fixed_value
 msgid "Minimum Fixed Value"
-msgstr ""
+msgstr "Мінімальне фіксоване значення"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold_range__min_value
@@ -455,7 +455,7 @@ msgstr "Тип наступної дії"
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__next_execution_date
 msgid "Next execution date"
-msgstr ""
+msgstr "Дата наступного виконання"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__message_needaction_counter
@@ -470,12 +470,12 @@ msgstr "Кількість помилок"
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: kpi
 #: model_terms:ir.ui.view,arch_db:kpi.view_kpi_filter
@@ -483,6 +483,8 @@ msgid ""
 "Only active KPIs are computed by the scheduler based on the periodicity "
 "configuration."
 msgstr ""
+"Планувальник обчислює лише активні KPI відповідно до налаштувань "
+"періодичності."
 
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__active
@@ -527,7 +529,7 @@ msgstr "Відповідальний користувач"
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__kpi_type__external
 msgid "SQL - External DB"
-msgstr ""
+msgstr "SQL - зовнішня БД"
 
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__kpi_type__local
@@ -547,6 +549,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi__threshold_id
@@ -572,12 +578,12 @@ msgstr ""
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Тип дії-винятку для запису."
 
 #. module: kpi
 #: model:ir.actions.server,name:kpi.ir_cron_kpi_action_ir_actions_server
 msgid "Update KPI values"
-msgstr ""
+msgstr "Оновити значення KPI"
 
 #. module: kpi
 #: model:ir.model.fields,field_description:kpi.field_kpi_threshold__valid
@@ -599,7 +605,7 @@ msgstr "Повідомлення вебсайту"
 #. module: kpi
 #: model:ir.model.fields,help:kpi.field_kpi__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: kpi
 #: model:ir.model.fields.selection,name:kpi.selection__kpi__periodicity_uom__week

@@ -104,3 +104,8 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:report_positioned_image.view_company_form_positioned_image
 msgid "Report Images"
 msgstr "Зображення звіту"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_report_positioned_image__respect_image_ratio
+msgid "Respect Image Ratio"
+msgstr "Зберігати пропорції зображення"

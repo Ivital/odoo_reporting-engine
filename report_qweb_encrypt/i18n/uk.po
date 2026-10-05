@@ -36,3 +36,13 @@ msgstr "Зашифрувати пароль"
 #: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
 msgid "Ok"
 msgstr "Гаразд"
+
+#. module: report_qweb_encrypt
+#: model:ir.model.fields.selection,name:report_qweb_encrypt.selection__ir_actions_report__encrypt__auto
+msgid "Auto Generated Password"
+msgstr "Автоматично згенерований пароль"
+
+#. module: report_qweb_encrypt
+#: model:ir.model.fields.selection,name:report_qweb_encrypt.selection__ir_actions_report__encrypt__manual
+msgid "Manual Input Password"
+msgstr "Пароль ручного введення"

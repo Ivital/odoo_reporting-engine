@@ -56,7 +56,7 @@ msgstr "Скасувати"
 #. module: sql_export
 #: model_terms:ir.ui.view,arch_db:sql_export.sql_export_view_form
 msgid "Configure Properties"
-msgstr ""
+msgstr "Налаштувати властивості"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__copy_options
@@ -146,13 +146,13 @@ msgstr "ID"
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__message_has_error
 #: model:ir.model.fields,help:sql_export.field_sql_export__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__use_external_database
@@ -167,6 +167,8 @@ msgid ""
 "In case of use of properties in the query, use this syntax : %(Property String)s. <br/>\n"
 "                                Example : SELECT id FROM sale_order WHERE create_date &gt; %(Start Date)s"
 msgstr ""
+"У разі використання властивостей у запиті застосовуйте такий синтаксис: %(Property String)s. <br/>\n"
+"                                Приклад: SELECT id FROM sale_order WHERE create_date &gt; %(Start Date)s"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_is_follower
@@ -176,7 +178,7 @@ msgstr "Є підписником"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_date
 msgid "Last Execution Date"
-msgstr ""
+msgstr "Дата останнього виконання"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__write_uid
@@ -193,7 +195,7 @@ msgstr "Останнє оновлення"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__last_execution_uid
 msgid "Last execution User"
-msgstr ""
+msgstr "Користувач останнього виконання"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_has_error
@@ -228,12 +230,12 @@ msgstr "Кількість помилок"
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: sql_export
 #. odoo-python
@@ -254,7 +256,7 @@ msgstr "Запит"
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__query_properties_definition
 msgid "Query Properties"
-msgstr ""
+msgstr "Властивості запиту"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__message_has_sms_error
@@ -289,6 +291,9 @@ msgid ""
 " * 'Draft': Not tested\n"
 " * 'SQL Valid': SQL Request has been checked and is valid"
 msgstr ""
+"Стан запиту:\n"
+" * «Чернетка»: не перевірено\n"
+" * «SQL дійсний»: SQL-запит перевірено й він дійсний"
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__has_group_changed
@@ -296,6 +301,8 @@ msgid ""
 "Technical fields, used in modules that depends on this one to know if groups"
 " has changed, and that according access should be updated."
 msgstr ""
+"Технічні поля, які використовуються в залежних модулях, щоб визначити, чи "
+"змінилися групи та чи потрібно відповідно оновити права доступу."
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_export__use_external_database
@@ -315,7 +322,7 @@ msgstr "Повідомлення вебсайту"
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: sql_export
 #: model:ir.model.fields,help:sql_export.field_sql_export__query

@@ -66,12 +66,12 @@ msgstr "Усі рівні"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form_allow_duplicate
 msgid "Allow Duplicate Field Names"
-msgstr ""
+msgstr "Дозволити дубльовані назви полів"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__4
 msgid "Any Except Extracting Pages"
-msgstr ""
+msgstr "Усі, крім вилучення сторінок"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdfa
@@ -86,12 +86,12 @@ msgstr "Закладки"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__1
 msgid "Bookmarks and Page"
-msgstr ""
+msgstr "Закладки та сторінка"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__center_window
 msgid "Center Window on Screen"
-msgstr ""
+msgstr "Центрувати вікно на екрані"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__changes
@@ -101,7 +101,7 @@ msgstr "Зміни"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__3
 msgid "Commenting, Filling in Form Fields"
-msgstr ""
+msgstr "Коментування, заповнення полів форми"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__2
@@ -111,12 +111,12 @@ msgstr "Безперервний"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__3
 msgid "Continuous Facing"
-msgstr ""
+msgstr "Безперервне розміщення"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__convert_doc_ref_to_pdf_target
 msgid "Convert Document References to PDF Targets"
-msgstr ""
+msgstr "Перетворити посилання документа на цілі PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__pdf_form
@@ -162,7 +162,7 @@ msgstr "Вимкнути"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_document_title
 msgid "Display Document Title"
-msgstr ""
+msgstr "Показувати заголовок документа"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__display_name
@@ -173,17 +173,17 @@ msgstr "Назва для відображення"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__document_password
 msgid "Document Password"
-msgstr ""
+msgstr "Пароль документа"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__content_copying_allowed
 msgid "Enable Copying of Content"
-msgstr ""
+msgstr "Увімкнути копіювання вмісту"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__text_access_accessibility_tools_allowed
 msgid "Enable Text Access for Accessibility Tools"
-msgstr ""
+msgstr "Увімкнути текстовий доступ для засобів доступності"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__encrypt
@@ -198,7 +198,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_hidden_slides
 msgid "Export Automatically Insered Blank Pages"
-msgstr ""
+msgstr "Експортувати автоматично вставлені порожні сторінки"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_bookmarks
@@ -208,7 +208,7 @@ msgstr "Експортувати закладки"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_bookmarks_named_dest
 msgid "Export Bookmarks as Named Destinations"
-msgstr ""
+msgstr "Експортувати закладки як іменовані призначення"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_comments
@@ -218,12 +218,12 @@ msgstr "Експортувати коментарі"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_placeholders
 msgid "Export Placeholders"
-msgstr ""
+msgstr "Експортувати заповнювачі"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__export_filesystem_urls
 msgid "Export URLs Relative to Filesystem"
-msgstr ""
+msgstr "Експортувати URL відносно файлової системи"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__0
@@ -233,7 +233,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__2
 msgid "Filling in Form Fields"
-msgstr ""
+msgstr "Заповнення полів форми"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__3
@@ -270,7 +270,7 @@ msgstr "Загальний"
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "Give a name to the set of PDF export options"
-msgstr ""
+msgstr "Дайте назву набору параметрів експорту PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__2
@@ -290,7 +290,7 @@ msgstr "Приховати панель інструментів"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__hide_window_controls
 msgid "Hide Windows Controls"
-msgstr ""
+msgstr "Приховати елементи керування вікном"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__printing__2
@@ -325,12 +325,12 @@ msgstr "Зображення"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_compression
 msgid "Image Compression"
-msgstr ""
+msgstr "Стиснення зображення"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_jpeg_quality
 msgid "Image JPEG Quality"
-msgstr ""
+msgstr "Якість JPEG-зображення"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__initial_page
@@ -345,7 +345,7 @@ msgstr "Початкове представлення"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__changes__1
 msgid "Inserting, Deleting and Rotating Pages"
-msgstr ""
+msgstr "Вставлення, видалення та обертання сторінок"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_compression__jpeg
@@ -378,12 +378,12 @@ msgstr "Локальне злиття"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__image_compression__lossless
 msgid "Lossless Compression"
-msgstr ""
+msgstr "Стиснення без втрат"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__printing__1
 msgid "Low Resolution (150 dpi)"
-msgstr ""
+msgstr "Низька роздільна здатність (150 dpi)"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__magnification
@@ -413,17 +413,17 @@ msgstr "Не дозволено"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__open_fullscreen
 msgid "Open in Full Screen Mode"
-msgstr ""
+msgstr "Відкрити в повноекранному режимі"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__cross_doc_link_action__2
 msgid "Open with Internet Browser"
-msgstr ""
+msgstr "Відкрити в інтернет-браузері"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__cross_doc_link_action__1
 msgid "Open with PDF Reader Application"
-msgstr ""
+msgstr "Відкрити у програмі перегляду PDF"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__pdf_form_format__1
@@ -471,7 +471,7 @@ msgstr "Панелі"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__permission_password
 msgid "Permission Password"
-msgstr ""
+msgstr "Пароль дозволу"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,help:report_py3o_fusion_server.field_py3o_pdf_options__zoom
@@ -508,7 +508,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__image_reduce_resolution
 msgid "Reduce Image Resolution"
-msgstr ""
+msgstr "Зменшити роздільну здатність зображення"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model,name:report_py3o_fusion_server.model_ir_actions_report
@@ -523,12 +523,12 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__resize_windows_initial_page
 msgid "Resize Windows to Initial Page"
-msgstr ""
+msgstr "Змінити розмір вікон до початкової сторінки"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__restrict_permissions
 msgid "Restrict Permissions"
-msgstr ""
+msgstr "Обмежити дозволи"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -538,7 +538,7 @@ msgstr "Безпека"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__watermark
 msgid "Sign With Watermark"
-msgstr ""
+msgstr "Підписати з водяним знаком"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__page_layout__1
@@ -553,7 +553,7 @@ msgstr "Формат надсилання"
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__tagged_pdf
 msgid "Tagged PDF (add document structure)"
-msgstr ""
+msgstr "Тегований PDF (додати структуру документа)"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
@@ -584,6 +584,8 @@ msgid ""
 "The security settings are incompatible with the <b>PDF/A-1a</b> option in "
 "the <em>General</em> tab."
 msgstr ""
+"Налаштування безпеки несумісні з параметром <b>PDF/A-1a</b> на вкладці "
+"<em>Загальні</em>."
 
 #. module: report_py3o_fusion_server
 #. odoo-python
@@ -595,7 +597,7 @@ msgstr ""
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__2
 msgid "Thumbnails and Page"
-msgstr ""
+msgstr "Мініатюри та сторінка"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -605,12 +607,12 @@ msgstr "Інтерфейс користувача"
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
 msgid "User Interface Options"
-msgstr ""
+msgstr "Параметри інтерфейсу користувача"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__open_bookmark_levels
 msgid "Visible Bookmark Levels"
-msgstr ""
+msgstr "Видимі рівні закладок"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_pdf_options__watermark_text

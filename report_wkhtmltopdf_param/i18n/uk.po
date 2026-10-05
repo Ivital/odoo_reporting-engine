@@ -31,7 +31,7 @@ msgstr "Дата створення"
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,field_description:report_wkhtmltopdf_param.field_report_paperformat__custom_params
 msgid "Custom Parameters"
-msgstr ""
+msgstr "Користувацькі параметри"
 
 #. module: report_wkhtmltopdf_param
 #: model:ir.model.fields,help:report_wkhtmltopdf_param.field_report_paperformat__custom_params

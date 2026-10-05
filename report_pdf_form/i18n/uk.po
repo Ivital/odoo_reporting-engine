@@ -245,3 +245,109 @@ msgstr "Змінні"
 #: code:addons/report_pdf_form/models/ir_actions_report.py:0
 msgid "Yes"
 msgstr "Так"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid ""
+"<code>env</code>: environment from the record on which the report is printed"
+msgstr "<code>env</code>: середовище запису, для якого друкується звіт"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid "<code>record</code>: record on which the report is printed"
+msgstr "<code>record</code>: запис, для якого друкується звіт"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid ""
+"<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
+"<code>timezone</code>: useful Python libraries"
+msgstr ""
+"<code>час</code>, <code>датачас</code>, <code>dateutil</code>, <code>часова "
+"зона</code>: корисні бібліотеки Python"
+
+#. module: report_pdf_form
+#: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__dotted_path
+msgid "Dotted field path"
+msgstr "Шлях вкладеного поля"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid ""
+"Dotted field path: Can be used to access atomic fields and go through "
+"Many2one relations with automatic formatting."
+msgstr ""
+"Шлях поля з крапками: можна використовувати для доступу до атомарних полів і"
+" переходу через зв’язки Many2one з автоматичним форматуванням."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__odoo_field_evaluation
+msgid "Odoo Field Evaluation"
+msgstr "Оцінювання поля Odoo"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__odoo_field_value
+msgid "Odoo Field Value"
+msgstr "Значення поля Odoo"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__multi
+msgid "On Multiple Doc."
+msgstr "На кількох документах."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__help
+msgid ""
+"Optional help text for the users with a description of the target view, such"
+" as its usage and purpose."
+msgstr ""
+"Необов'язковий текст довідки для користувачів з описом цільового перегляду, "
+"наприклад його використання та призначення."
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__pdf_field_name
+msgid "PDF Form Field Name"
+msgstr "Назва поля PDF-форми"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__print_report_name
+msgid "Printed Report Name"
+msgstr "Назва друкованого звіту"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid ""
+"Python code: Can be used to acces what you cannot using the Dotted field "
+"path. Following variables can be used:"
+msgstr ""
+"Код Python: можна використовувати для доступу до того, чого не можна "
+"отримати через шлях поля з крапками. Доступні такі змінні:"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__pdf_attachment_id
+msgid "Related attachment"
+msgstr "Пов’язане вкладення"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__attachment_use
+msgid "Reload from Attachment"
+msgstr "Перезавантажити з прикріплення"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__attachment
+msgid "Save as Attachment Prefix"
+msgstr "Зберегти як префікс вкладення"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,help:report_pdf_form.field_report_pdf_form__binding_model_id
+msgid ""
+"Setting a value makes this action available in the sidebar for the given "
+"model."
+msgstr ""
+"Встановлення значення робить цю дію доступною на бічній панелі для даної "
+"моделі."
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid "There are two ways to fetch value from the object:"
+msgstr "Є два способи отримати значення з об’єкта:"

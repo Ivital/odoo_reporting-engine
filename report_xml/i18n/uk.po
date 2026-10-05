@@ -103,7 +103,7 @@ msgstr "Кодування XML"
 #. module: report_xml
 #: model_terms:ir.ui.view,arch_db:report_xml.ir_actions_report_view_form_report_xml
 msgid "XML Rreport Settings"
-msgstr ""
+msgstr "Налаштування XML-звіту"
 
 #. module: report_xml
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xsd_schema

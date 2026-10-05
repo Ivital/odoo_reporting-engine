@@ -115,3 +115,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: report_qweb_field_option
+#: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
+msgid "Qweb Field Options Search"
+msgstr "Пошук параметрів поля QWeb"

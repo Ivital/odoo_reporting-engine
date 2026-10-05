@@ -187,3 +187,68 @@ msgstr "Друкувати етикетки"
 #: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
 msgid "Right (mm)"
 msgstr "Праворуч (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_background_color
+msgid "Label Background Color"
+msgstr "Колір тла етикетки"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_height
+msgid "Label Height (mm)"
+msgstr "Висота етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_margin_bottom
+msgid "Label Margin Bottom (mm)"
+msgstr "Нижнє поле етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_margin_left
+msgid "Label Margin Left (mm)"
+msgstr "Ліве поле етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_margin_right
+msgid "Label Margin Right (mm)"
+msgstr "Праве поле етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_margin_top
+msgid "Label Margin Top (mm)"
+msgstr "Верхнє поле етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_padding_bottom
+msgid "Label Padding Bottom (mm)"
+msgstr "Нижній внутрішній відступ етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_padding_left
+msgid "Label Padding Left (mm)"
+msgstr "Лівий внутрішній відступ етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_padding_right
+msgid "Label Padding Right (mm)"
+msgstr "Правий внутрішній відступ етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_padding_top
+msgid "Label Padding Top (mm)"
+msgstr "Верхній внутрішній відступ етикетки (мм)"
+
+#. module: report_label
+#: model:ir.actions.act_window,name:report_label.paperformat_label_action
+msgid "Label paper format configuration"
+msgstr "Конфігурація формату паперу етикетки"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Paper format configuration"
+msgstr "Налаштування формату сторінки"
+
+#. module: report_label
+#: model:ir.model.fields.selection,name:report_label.selection__ir_actions_server__state__report_label
+msgid "Print self-adhesive labels"
+msgstr "Друкувати самоклейні етикетки"

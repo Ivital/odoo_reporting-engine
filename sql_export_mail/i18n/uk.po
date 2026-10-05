@@ -48,3 +48,13 @@ msgstr "Поштовий контрагент"
 #: model:ir.model.fields,field_description:sql_export_mail.field_sql_export__mail_user_ids
 msgid "User to notify"
 msgstr "Користувач для сповіщення"
+
+#. module: sql_export_mail
+#: model_terms:ir.ui.view,arch_db:sql_export_mail.sql_export_mail_view_form
+msgid "Partners Notified by e-mail"
+msgstr "Контрагенти, сповіщені електронною поштою"
+
+#. module: sql_export_mail
+#: model_terms:ir.ui.view,arch_db:sql_export_mail.sql_export_mail_view_form
+msgid "Users Notified by e-mail"
+msgstr "Користувачі, сповіщені електронною поштою"
