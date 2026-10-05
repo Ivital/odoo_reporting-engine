@@ -18,3 +18,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
 msgid "Logo"
 msgstr "Логотип"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_clean_layout_images_template
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
+msgid "Footer logo"
+msgstr "Логотип у нижньому колонтитулі"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout__full_footer_img
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company__full_footer_img
+msgid "Full footer image"
+msgstr "Повне зображення нижнього колонтитулу"
+
+#. module: report_layout_config
+#: model:ir.model.fields,field_description:report_layout_config.field_base_document_layout__full_header_img
+#: model:ir.model.fields,field_description:report_layout_config.field_res_company__full_header_img
+msgid "Full header image"
+msgstr "Повне зображення заголовка"
+
+#. module: report_layout_config
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_clean_layout_images_template
+#: model_terms:ir.ui.view,arch_db:report_layout_config.external_standard_layout_images_template
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Сторінка: <span class=\"page\"/> / <span class=\"topage\"/>"

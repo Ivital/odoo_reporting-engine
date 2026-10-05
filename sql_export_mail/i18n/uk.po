@@ -18,3 +18,33 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sql_export_mail.sql_export_mail_view_form
 msgid "Crons"
 msgstr "Планувальники"
+
+#. module: sql_export_mail
+#: model_terms:ir.ui.view,arch_db:sql_export_mail.sql_export_mail_view_form
+msgid "Create Cron"
+msgstr "Створити Cron"
+
+#. module: sql_export_mail
+#: model:ir.model.fields.selection,name:sql_export_mail.selection__sql_export__mail_condition__not_empty
+msgid "File Not Empty"
+msgstr "Файл не порожній"
+
+#. module: sql_export_mail
+#: model_terms:ir.ui.view,arch_db:sql_export_mail.sql_export_mail_view_form
+msgid "Mail"
+msgstr "Пошта"
+
+#. module: sql_export_mail
+#: model:ir.model.fields,field_description:sql_export_mail.field_sql_export__mail_condition
+msgid "Mail Condition"
+msgstr "Умова листа"
+
+#. module: sql_export_mail
+#: model:ir.model.fields,field_description:sql_export_mail.field_sql_export__mail_partner_ids
+msgid "Mail Partner"
+msgstr "Поштовий контрагент"
+
+#. module: sql_export_mail
+#: model:ir.model.fields,field_description:sql_export_mail.field_sql_export__mail_user_ids
+msgid "User to notify"
+msgstr "Користувач для сповіщення"

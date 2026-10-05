@@ -120,3 +120,128 @@ msgstr "Файл звіту"
 #: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__report_form_id
 msgid "Report Form"
 msgstr "Форма звіту"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid ""
+"<code>float_compare()</code>: utility function to compare floats based on a "
+"specific precision"
+msgstr ""
+"<code>float_compare()</code>: службова функція для порівняння чисел з "
+"плаваючою комою за заданою точністю"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__help
+msgid "Action Description"
+msgstr "Опис дії"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__binding_model_id
+msgid "Binding Model"
+msgstr "Модель прив'язки"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__binding_view_types
+msgid "Binding View Types"
+msgstr "Типи представлень прив'язки"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__context
+msgid "Context Value"
+msgstr "Значення контексту"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__encode_error_handling
+msgid "Encode Error Handling"
+msgstr "Обробка помилки кодування"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__field_mapping_ids
+msgid "Field Mapping"
+msgstr "Зіставлення полів"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__field_variable_ids
+msgid "Field Variable"
+msgstr "Змінна поля"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid "Field mapping"
+msgstr "Зіставлення полів"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__domain
+msgid "Filter domain"
+msgstr "Домен фільтра"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid "Help"
+msgstr "Довідка"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__write_uid
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__write_uid
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__write_date
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_field__write_date
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form_variable__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: report_pdf_form
+#. odoo-python
+#: code:addons/report_pdf_form/models/ir_actions_report.py:0
+msgid "No"
+msgstr "Ні"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__path
+msgid "Path to show in the URL"
+msgstr "Шлях для показу в URL"
+
+#. module: report_pdf_form
+#: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__code
+msgid "Python code"
+msgstr "Код Python"
+
+#. module: report_pdf_form
+#: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__repeat_field
+msgid "Repeat field"
+msgstr "Поле повторення"
+
+#. module: report_pdf_form
+#: model:ir.model.fields.selection,name:report_pdf_form.selection__report_pdf_form_field__odoo_field_evaluation__text
+msgid "Static text"
+msgstr "Статичний текст"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__report_name
+msgid "Template Name"
+msgstr "Назва шаблону"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__text_encode_error_handling
+msgid "Text Encode Error Handling"
+msgstr "Обробка помилки кодування тексту"
+
+#. module: report_pdf_form
+#: model:ir.model.fields,field_description:report_pdf_form.field_report_pdf_form__text_encoding
+msgid "Text Encoding"
+msgstr "Кодування тексту"
+
+#. module: report_pdf_form
+#: model_terms:ir.ui.view,arch_db:report_pdf_form.report_pdf_form_form
+msgid "Variables"
+msgstr "Змінні"
+
+#. module: report_pdf_form
+#. odoo-python
+#: code:addons/report_pdf_form/models/ir_actions_report.py:0
+msgid "Yes"
+msgstr "Так"

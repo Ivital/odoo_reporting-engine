@@ -22,3 +22,23 @@ msgstr "Формат файлу"
 #: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__header
 msgid "Header"
 msgstr "Заголовок"
+
+#. module: sql_export_excel
+#: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__col_position
+msgid "Column Position"
+msgstr "Позиція стовпця"
+
+#. module: sql_export_excel
+#: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__attachment_id
+msgid "Excel Template"
+msgstr "Шаблон Excel"
+
+#. module: sql_export_excel
+#: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__row_position
+msgid "Row Position"
+msgstr "Позиція рядка"
+
+#. module: sql_export_excel
+#: model:ir.model.fields,field_description:sql_export_excel.field_sql_export__sheet_position
+msgid "Sheet Position"
+msgstr "Позиція аркуша"

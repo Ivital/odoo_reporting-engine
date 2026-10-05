@@ -118,3 +118,72 @@ msgstr "Зверху (мм)"
 #: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Bottom (mm)"
+msgstr "Внизу (мм)"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.report_label_wizard_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Label Margin"
+msgstr "Поле етикетки"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Label Padding"
+msgstr "Внутрішні відступи етикетки"
+
+#. module: report_label
+#: model:ir.model,name:report_label.model_report_paperformat_label
+#: model:ir.model.fields,field_description:report_label.field_ir_actions_server__label_paperformat_id
+#: model:ir.model.fields,field_description:report_label.field_ir_cron__label_paperformat_id
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__label_paperformat_id
+msgid "Label Paper Format"
+msgstr "Формат паперу етикетки"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_ir_actions_server__label_template_view_id
+#: model:ir.model.fields,field_description:report_label.field_ir_cron__label_template_view_id
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__label_template_view_id
+msgid "Label QWeb Template"
+msgstr "Шаблон QWeb етикетки"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Label Settings"
+msgstr "Налаштування етикетки"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__label_width
+msgid "Label Width (mm)"
+msgstr "Ширина етикетки (мм)"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__write_uid
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__write_uid
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: report_label
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard__write_date
+#: model:ir.model.fields,field_description:report_label.field_report_label_wizard_line__write_date
+#: model:ir.model.fields,field_description:report_label.field_report_paperformat_label__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.report_label_wizard_view_form
+msgid "Print Labels"
+msgstr "Друкувати етикетки"
+
+#. module: report_label
+#: model_terms:ir.ui.view,arch_db:report_label.view_paperformat_label_view_form
+msgid "Right (mm)"
+msgstr "Праворуч (мм)"

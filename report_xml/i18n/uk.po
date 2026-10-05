@@ -92,7 +92,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xml_declaration
 #: model:ir.model.fields,field_description:report_xml.field_report_pdf_form__xml_declaration
 msgid "XML Declaration"
-msgstr ""
+msgstr "XML-декларація"
 
 #. module: report_xml
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xml_encoding
@@ -109,13 +109,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xsd_schema
 #: model:ir.model.fields,field_description:report_xml.field_report_pdf_form__xsd_schema
 msgid "XSD Validation Schema"
-msgstr ""
+msgstr "Схема валідації XSD"
 
 #. module: report_xml
 #: model:ir.model.fields,field_description:report_xml.field_ir_actions_report__xml_extension
 #: model:ir.model.fields,field_description:report_xml.field_report_pdf_form__xml_extension
 msgid "Xml Extension"
-msgstr ""
+msgstr "Розширення XML"
 
 #~ msgid "Display Name"
 #~ msgstr "Назва для відображення"

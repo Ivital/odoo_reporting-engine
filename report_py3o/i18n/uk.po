@@ -62,7 +62,7 @@ msgstr "Тип файлу"
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
 msgid "Group By"
-msgstr ""
+msgstr "Групувати за"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__id
@@ -97,13 +97,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__is_py3o_native_format
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__is_py3o_native_format
 msgid "Is Py3O Native Format"
-msgstr ""
+msgstr "Є нативним форматом Py3O"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__is_py3o_report_not_available
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__is_py3o_report_not_available
 msgid "Is Py3O Report Not Available"
-msgstr ""
+msgstr "Звіт Py3O недоступний"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__write_uid
@@ -121,7 +121,7 @@ msgstr "?????????????? ??????????????????"
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__py3o_template_data
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_report_view
 msgid "LibreOffice Template"
-msgstr ""
+msgstr "Шаблон LibreOffice"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__filetype
@@ -144,13 +144,13 @@ msgstr "Модуль"
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__msg_py3o_report_not_available
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__msg_py3o_report_not_available
 msgid "Msg Py3O Report Not Available"
-msgstr ""
+msgstr "Повідомлення про недоступний звіт Py3O"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_multi_in_one
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__py3o_multi_in_one
 msgid "Multiple Records in a Single Report"
-msgstr ""
+msgstr "Кілька записів в одному звіті"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__name
@@ -176,7 +176,7 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__ods
 msgid "ODF Spreadsheet"
-msgstr ""
+msgstr "Таблиця ODF"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fods
@@ -197,13 +197,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_filetype
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__py3o_filetype
 msgid "Output Format"
-msgstr ""
+msgstr "Формат виводу"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__lo_bin_path
 #: model:ir.model.fields,field_description:report_py3o.field_report_pdf_form__lo_bin_path
 msgid "Path to the libreoffice runtime"
-msgstr ""
+msgstr "Шлях до середовища виконання LibreOffice"
 
 #. module: report_py3o
 #: model:ir.actions.report,name:report_py3o.res_users_report_py3o
@@ -213,7 +213,7 @@ msgstr ""
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.act_report_xml_search_view
 msgid "Py3o Reports"
-msgstr ""
+msgstr "Звіти Py3o"
 
 #. module: report_py3o
 #: model:ir.actions.act_window,name:report_py3o.py3o_template_configuration_action

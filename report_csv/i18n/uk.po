@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_csv.field_ir_actions_report__encoding
 msgid "Encoding"
 msgstr "Кодування"
+
+#. module: report_csv
+#: model:ir.model.fields,field_description:report_csv.field_ir_actions_report__encode_error_handling
+msgid "Encode Error Handling"
+msgstr "Обробка помилки кодування"
+
+#. module: report_csv
+#: model:ir.model.fields.selection,name:report_csv.selection__ir_actions_report__encode_error_handling__ignore
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+#. module: report_csv
+#: model:ir.model.fields.selection,name:report_csv.selection__ir_actions_report__encode_error_handling__replace
+msgid "Replace"
+msgstr "Замінити"

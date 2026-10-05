@@ -70,3 +70,37 @@ msgstr "Зверху (мм)"
 #: model_terms:ir.ui.view,arch_db:report_positioned_image.view_company_form_positioned_image
 msgid "Width (mm)"
 msgstr "Ширина (мм)"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_res_company__report_positioned_image_ids
+msgid "Company Images"
+msgstr "Зображення компанії"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_report_positioned_image__first_page_only
+msgid "First Page Only"
+msgstr "Лише перша сторінка"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_ir_actions_report__include_company_images
+#: model:ir.model.fields,field_description:report_positioned_image.field_report_pdf_form__include_company_images
+msgid "Include Company Images"
+msgstr "Включати зображення компанії"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_report_positioned_image__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_report_positioned_image__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: report_positioned_image
+#: model:ir.model.fields,field_description:report_positioned_image.field_ir_actions_report__report_positioned_image_ids
+#: model:ir.model.fields,field_description:report_positioned_image.field_report_pdf_form__report_positioned_image_ids
+#: model_terms:ir.ui.view,arch_db:report_positioned_image.view_act_report_form_positioned_image
+#: model_terms:ir.ui.view,arch_db:report_positioned_image.view_company_form_positioned_image
+msgid "Report Images"
+msgstr "Зображення звіту"

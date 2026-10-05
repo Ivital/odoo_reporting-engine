@@ -17,3 +17,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_text_format_option.field_ir_actions_report__line_ending
 msgid "Line Ending"
 msgstr "Закінчення рядка"
+
+#. module: report_text_format_option
+#: model:ir.model.fields.selection,name:report_text_format_option.selection__ir_actions_report__text_encode_error_handling__ignore
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+#. module: report_text_format_option
+#: model:ir.model.fields.selection,name:report_text_format_option.selection__ir_actions_report__text_encode_error_handling__replace
+msgid "Replace"
+msgstr "Замінити"
+
+#. module: report_text_format_option
+#: model:ir.model.fields,field_description:report_text_format_option.field_ir_actions_report__text_encode_error_handling
+msgid "Text Encode Error Handling"
+msgstr "Обробка помилки кодування тексту"
+
+#. module: report_text_format_option
+#: model:ir.model.fields,field_description:report_text_format_option.field_ir_actions_report__text_encoding
+msgid "Text Encoding"
+msgstr "Кодування тексту"

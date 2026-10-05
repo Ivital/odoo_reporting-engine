@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__back_cover_pdf
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_report_pdf_form__back_cover_pdf
+msgid "Back Cover PDF"
+msgstr "PDF задньої обкладинки"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__front_cover_pdf
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_report_pdf_form__front_cover_pdf
+msgid "Front Cover PDF"
+msgstr "PDF передньої обкладинки"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__back_cover_overlap
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_report_pdf_form__back_cover_overlap
+msgid "Overlap Back Cover"
+msgstr "Накладати задню обкладинку"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__front_cover_overlap
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_report_pdf_form__front_cover_overlap
+msgid "Overlap Front Cover"
+msgstr "Накладати передню обкладинку"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__use_back_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_report_pdf_form__use_back_cover
+msgid "Use Back Cover"
+msgstr "Використовувати задню обкладинку"
+
+#. module: report_qweb_pdf_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_ir_actions_report__use_front_cover
+#: model:ir.model.fields,field_description:report_qweb_pdf_cover.field_report_pdf_form__use_front_cover
+msgid "Use Front Cover"
+msgstr "Використовувати передню обкладинку"

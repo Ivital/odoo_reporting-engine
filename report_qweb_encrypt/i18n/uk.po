@@ -18,3 +18,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_qweb_encrypt.field_report_pdf_form__encrypt
 msgid "Encryption"
 msgstr "Шифрування"
+
+#. module: report_qweb_encrypt
+#. odoo-javascript
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: report_qweb_encrypt
+#: model:ir.model.fields,field_description:report_qweb_encrypt.field_ir_actions_report__encrypt_password
+#: model:ir.model.fields,field_description:report_qweb_encrypt.field_report_pdf_form__encrypt_password
+msgid "Encrypt Password"
+msgstr "Зашифрувати пароль"
+
+#. module: report_qweb_encrypt
+#. odoo-javascript
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
+msgid "Ok"
+msgstr "Гаразд"

@@ -95,3 +95,23 @@ msgstr "Од. вим."
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_field_id
 msgid "UoM Field"
 msgstr "Поле од. вим."
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__currency_field_id
+msgid "Currency Field"
+msgstr "Поле валюти"
+
+#. module: report_qweb_field_option
+#: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: report_qweb_field_option
+#: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

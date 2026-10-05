@@ -63,7 +63,7 @@ msgstr "Тіло"
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__position__after_lines
 msgid "Bottom"
-msgstr ""
+msgstr "Внизу"
 
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
@@ -89,7 +89,7 @@ msgstr "Коментар"
 #: model:ir.model.fields,field_description:base_comment_template.field_comment_template__comment_template_ids
 #: model:ir.model.fields,field_description:base_comment_template.field_ir_model__is_comment_template
 msgid "Comment Template"
-msgstr ""
+msgstr "Шаблон коментаря"
 
 #. module: base_comment_template
 #: model:ir.actions.act_window,name:base_comment_template.action_base_comment_template
@@ -132,7 +132,7 @@ msgstr "Дата створення"
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
 msgid "Discard"
-msgstr ""
+msgstr "Відкинути"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__display_name
@@ -148,12 +148,12 @@ msgstr "Рушій"
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__domain
 msgid "Filter Domain"
-msgstr ""
+msgstr "Домен фільтра"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__global_template
 msgid "Global Template"
-msgstr ""
+msgstr "Глобальний шаблон"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__id
@@ -184,12 +184,12 @@ msgstr ""
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__engine__inline_template
 msgid "Inline Template"
-msgstr ""
+msgstr "Вбудований шаблон"
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__inline_template
 msgid "Inline template"
-msgstr ""
+msgstr "Вбудований шаблон"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template__write_uid
@@ -249,7 +249,7 @@ msgstr "Попередній перегляд"
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
 msgid "Preview of"
-msgstr ""
+msgstr "Попередній перегляд"
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__engine__qweb
@@ -260,12 +260,12 @@ msgstr ""
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__engine__qweb_view
 msgid "QWeb View"
-msgstr ""
+msgstr "Представлення QWeb"
 
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template_preview__engine__qweb_view
 msgid "QWeb view"
-msgstr ""
+msgstr "Представлення QWeb"
 
 #. module: base_comment_template
 #: model:ir.model.fields,field_description:base_comment_template.field_base_comment_template_preview__resource_ref
@@ -342,7 +342,7 @@ msgstr ""
 #. module: base_comment_template
 #: model:ir.model.fields.selection,name:base_comment_template.selection__base_comment_template__position__before_lines
 msgid "Top"
-msgstr ""
+msgstr "Вгорі"
 
 #. module: base_comment_template
 #: model:ir.model.fields,help:base_comment_template.field_ir_model__is_comment_template
@@ -359,7 +359,7 @@ msgstr ""
 #. module: base_comment_template
 #: model_terms:ir.ui.view,arch_db:base_comment_template.base_comment_template_preview_form
 msgid "record:"
-msgstr ""
+msgstr "запис:"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

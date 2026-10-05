@@ -20,3 +20,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_res_company__pdf_watermark
 msgid "Watermark"
 msgstr "Водяний знак"
+
+#. module: report_qweb_pdf_watermark
+#: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_ir_actions_report__use_company_watermark
+#: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_report_pdf_form__use_company_watermark
+msgid "Use Company Watermark"
+msgstr "Використовувати водяний знак компанії"
+
+#. module: report_qweb_pdf_watermark
+#: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_ir_actions_report__pdf_watermark_expression
+#: model:ir.model.fields,field_description:report_qweb_pdf_watermark.field_report_pdf_form__pdf_watermark_expression
+msgid "Watermark expression"
+msgstr "Вираз водяного знака"

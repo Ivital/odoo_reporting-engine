@@ -42,3 +42,26 @@ msgstr "Назва моделі"
 #: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: report_substitute
+#: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: report_substitute
+#: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: report_substitute
+#: model:ir.model,name:report_substitute.model_ir_actions_report
+#: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report_substitution_rule__action_report_id
+msgid "Report Action"
+msgstr "Дія звіту"
+
+#. module: report_substitute
+#: model:ir.model.fields,field_description:report_substitute.field_ir_actions_report__action_report_substitution_rule_ids
+#: model:ir.model.fields,field_description:report_substitute.field_report_pdf_form__action_report_substitution_rule_ids
+#: model_terms:ir.ui.view,arch_db:report_substitute.ir_actions_report_form_view
+msgid "Substitution Rules"
+msgstr "Правила заміни"
