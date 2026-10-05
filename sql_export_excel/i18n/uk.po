@@ -75,3 +75,31 @@ msgid ""
 msgstr ""
 "Укажіть позицію аркуша в шаблоні Excel, куди потрібно вставити результат "
 "SQL-запиту."
+
+#. module: sql_export_excel
+#. odoo-python
+#: code:addons/sql_export_excel/models/sql_export.py:0
+msgid ""
+"The Excel Template file contains less than %s sheets Please, adjust the "
+"Sheet Position parameter."
+msgstr ""
+"Файл шаблону Excel містить менше ніж %s аркушів. Відкоригуйте параметр "
+"позиції аркуша."
+
+#. module: sql_export_excel
+#. odoo-python
+#: code:addons/sql_export_excel/models/sql_export.py:0
+msgid "The column position can't be less than 1."
+msgstr "Позиція стовпця не може бути меншою за 1."
+
+#. module: sql_export_excel
+#. odoo-python
+#: code:addons/sql_export_excel/models/sql_export.py:0
+msgid "The row position can't be less than 1."
+msgstr "Позиція рядка не може бути меншою за 1."
+
+#. module: sql_export_excel
+#. odoo-python
+#: code:addons/sql_export_excel/models/sql_export.py:0
+msgid "The sheet position can't be less than 1."
+msgstr "Позиція аркуша не може бути меншою за 1."

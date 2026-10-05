@@ -142,3 +142,43 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, зміна ширини або висоти автоматично коригуватиме інший "
 "розмір для збереження пропорцій зображення."
+
+#. module: report_positioned_image
+#. odoo-python
+#: code:addons/report_positioned_image/models/report_positioned_image.py:0
+msgid "Company Assignment"
+msgstr "Призначення компанії"
+
+#. module: report_positioned_image
+#. odoo-python
+#: code:addons/report_positioned_image/models/report_positioned_image.py:0
+msgid "Height must be greater than zero."
+msgstr "Висота має бути більшою за нуль."
+
+#. module: report_positioned_image
+#. odoo-python
+#: code:addons/report_positioned_image/models/report_positioned_image.py:0
+msgid "Left position must be a positive value."
+msgstr "Ліва позиція має бути додатним значенням."
+
+#. module: report_positioned_image
+#. odoo-python
+#: code:addons/report_positioned_image/models/report_positioned_image.py:0
+msgid "Top position must be a positive value."
+msgstr "Верхня позиція має бути додатним значенням."
+
+#. module: report_positioned_image
+#. odoo-python
+#: code:addons/report_positioned_image/models/report_positioned_image.py:0
+msgid "Width must be greater than zero."
+msgstr "Ширина має бути більшою за нуль."
+
+#. module: report_positioned_image
+#. odoo-python
+#: code:addons/report_positioned_image/models/report_positioned_image.py:0
+msgid ""
+"You cannot assign this image to a different company. Please use the "
+"dedicated wizard to assign images to other companies."
+msgstr ""
+"Не можна призначити це зображення іншій компанії. Використовуйте спеціальний"
+" майстер для призначення зображень іншим компаніям."

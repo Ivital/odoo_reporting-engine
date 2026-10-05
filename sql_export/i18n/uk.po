@@ -241,7 +241,7 @@ msgstr "Кількість повідомлень із помилкою дост
 #. odoo-python
 #: code:addons/sql_export/wizard/wizard_file.py:0
 msgid "Please enter a values for the following properties : %s"
-msgstr ""
+msgstr "Введіть значення для таких властивостей: %s"
 
 #. module: sql_export
 #: model:ir.model.fields,field_description:sql_export.field_sql_file_wizard__query_properties

@@ -86,3 +86,35 @@ msgstr "Експорт SQL"
 #: model:ir.model,name:sql_export_mail.model_sql_export
 msgid "SQL export"
 msgstr "Експорт SQL"
+
+#. module: sql_export_mail
+#. odoo-python
+#: code:addons/sql_export_mail/models/sql_export.py:0
+msgid ""
+"A query that uses the company_id or user_id parameter cannot be directly "
+"sent to a partner."
+msgstr ""
+"Запит, що використовує параметр company_id або user_id, не можна "
+"безпосередньо надсилати партнеру."
+
+#. module: sql_export_mail
+#. odoo-python
+#: code:addons/sql_export_mail/models/sql_export.py:0
+msgid ""
+"It is not possible to execute and send a query automatically by mail if "
+"there are parameters to fill"
+msgstr ""
+"Неможливо автоматично виконати й надіслати запит електронною поштою, якщо є "
+"параметри для заповнення"
+
+#. module: sql_export_mail
+#. odoo-python
+#: code:addons/sql_export_mail/models/sql_export.py:0
+msgid "Missing email address for partner(s): %(names)s"
+msgstr "Відсутня електронна адреса для партнера(ів): %(names)s"
+
+#. module: sql_export_mail
+#. odoo-python
+#: code:addons/sql_export_mail/models/sql_export.py:0
+msgid "The user does not have any e-mail address."
+msgstr "Користувач не має електронної адреси."

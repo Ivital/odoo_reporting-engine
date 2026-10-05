@@ -52,6 +52,10 @@ msgid ""
 " by Odoo, you can provide the full path to the runtime by setting the key "
 "'py3o.conversion_command' into the configuration parameters."
 msgstr ""
+"Для формування звіту py3o '%s' потрібен Fusion server або середовище "
+"виконання LibreOffice. Якщо LibreOffice Runtime уже встановлено, але Odoo "
+"його не знаходить, можна вказати повний шлях до нього, задавши ключ "
+"'py3o.conversion_command' у параметрах конфігурації."
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields,field_description:report_py3o_fusion_server.field_py3o_server__is_active
@@ -260,7 +264,7 @@ msgstr "Сервер Fusion"
 #. odoo-python
 #: code:addons/report_py3o_fusion_server/models/py3o_report.py:0
 msgid "Fusion server error %s"
-msgstr ""
+msgstr "Помилка сервера Fusion %s"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -572,6 +576,8 @@ msgid ""
 "The PDF/A option is not compatible with 'Cross-document Links' = 'Open with "
 "PDF Reader Application'."
 msgstr ""
+"Опція PDF/A несумісна з «Міждокументні посилання» = «Відкривати у програмі "
+"перегляду PDF»."
 
 #. module: report_py3o_fusion_server
 #. odoo-python
@@ -579,6 +585,7 @@ msgstr ""
 msgid ""
 "The initial page parameter must be strictly positive (current value: %d)"
 msgstr ""
+"Початковий параметр сторінки має бути строго додатним (поточне значення: %d)"
 
 #. module: report_py3o_fusion_server
 #. odoo-python
@@ -587,6 +594,8 @@ msgid ""
 "The parameter Image JPEG Quality must be between 1 %% and 100 %% (current "
 "value: %s %%)"
 msgstr ""
+"Параметр якості JPEG-зображення має бути між 1 %% і 100 %% (поточне "
+"значення: %s %%)"
 
 #. module: report_py3o_fusion_server
 #: model_terms:ir.ui.view,arch_db:report_py3o_fusion_server.py3o_pdf_options_form
@@ -603,6 +612,8 @@ msgstr ""
 msgid ""
 "The value of the zoom factor must be between 50 and 1600 (current value: %d)"
 msgstr ""
+"Значення коефіцієнта масштабування має бути між 50 і 1600 (поточне значення:"
+" %d)"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__initial_view__2
@@ -651,6 +662,8 @@ msgid ""
 "You can not use remote fusion without Fusion server. Please specify a Fusion"
 " Server"
 msgstr ""
+"Не можна використовувати віддалене об’єднання без сервера Fusion. Вкажіть "
+"сервер Fusion"
 
 #. module: report_py3o_fusion_server
 #: model:ir.model.fields.selection,name:report_py3o_fusion_server.selection__py3o_pdf_options__magnification__4

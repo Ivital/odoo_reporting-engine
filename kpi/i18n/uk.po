@@ -620,6 +620,15 @@ msgstr "Тиждень"
 msgid "SMS Delivery error"
 msgstr "Помилка доставки SMS"
 
+#. module: kpi
+#. odoo-python
+#: code:addons/kpi/models/kpi_threshold.py:0
+msgid ""
+"Two of your ranges are overlapping. Make sure your ranges do not overlap!"
+msgstr ""
+"Два ваші діапазони перекриваються. Переконайтеся, що діапазони не "
+"перекриваються!"
+
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"
 

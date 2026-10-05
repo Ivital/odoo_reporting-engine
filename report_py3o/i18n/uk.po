@@ -22,7 +22,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/report_py3o/models/ir_actions_report.py:0
 msgid "(Native)"
-msgstr ""
+msgstr "(нативний)"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_report__create_uid
@@ -52,7 +52,7 @@ msgstr "Резервний варіант"
 #. odoo-python
 #: code:addons/report_py3o/models/ir_actions_report.py:0
 msgid "Field 'Output Format' is required for Py3O report"
-msgstr ""
+msgstr "Поле «Формат виводу» є обов’язковим для звіту Py3O"
 
 #. module: report_py3o
 #: model_terms:ir.ui.view,arch_db:report_py3o.py3o_template_configuration_search_view
@@ -137,7 +137,7 @@ msgstr "Тип файлу шаблону LibreOffice"
 #. odoo-python
 #: code:addons/report_py3o/models/py3o_report.py:0
 msgid "Libreoffice runtime not available. Please contact your administrator."
-msgstr ""
+msgstr "Середовище LibreOffice недоступне. Зверніться до адміністратора."
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__module
@@ -166,7 +166,7 @@ msgstr "Назва"
 #. odoo-python
 #: code:addons/report_py3o/models/py3o_report.py:0
 msgid "No template found. Aborting."
-msgstr ""
+msgstr "Шаблон не знайдено. Перервано."
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odp
@@ -269,6 +269,11 @@ msgid ""
 "you can provide the full path to the runtime by setting the key "
 "'py3o.conversion_command' into the configuration parameters."
 msgstr ""
+"Для формування звіту py3o '%s' потрібне середовище виконання LibreOffice, "
+"але його не знайдено в системному шляху bin. Потрібно встановити LibreOffice"
+" Runtime на сервері. Якщо воно вже встановлено, але Odoo його не знаходить, "
+"можна вказати повний шлях, задавши ключ 'py3o.conversion_command' у "
+"параметрах конфігурації."
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__report_type

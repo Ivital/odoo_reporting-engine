@@ -62,3 +62,19 @@ msgstr ""
 #: model:ir.model.fields,help:report_qweb_encrypt.field_report_pdf_form__encrypt_password
 msgid "Python code syntax to gnerate password."
 msgstr "Синтаксис коду Python для генерування пароля."
+
+#. module: report_qweb_encrypt
+#. odoo-javascript
+#: code:addons/report_qweb_encrypt/static/src/report/encrypt_dialog.xml:0
+msgid "Enter password"
+msgstr "Введіть пароль"
+
+#. module: report_qweb_encrypt
+#. odoo-python
+#: code:addons/report_qweb_encrypt/models/ir_actions_report.py:0
+msgid ""
+"Python code used for encryption password is invalid.\n"
+"%s"
+msgstr ""
+"Код Python, використаний для пароля шифрування, недійсний.\n"
+"%s"

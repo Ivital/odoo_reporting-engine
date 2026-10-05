@@ -488,3 +488,9 @@ msgstr ""
 "Це назва файлу звіту, який буде завантажено. Залиште порожнім, щоби не "
 "змінити назву файлу звіту. Ви можете використовувати вираз python зі "
 "змінними 'object' і 'time'."
+
+#. module: report_pdf_form
+#. odoo-python
+#: code:addons/report_pdf_form/models/ir_actions_report.py:0
+msgid "Invalid evaluation for Odoo field"
+msgstr "Недійсне обчислення для поля Odoo"

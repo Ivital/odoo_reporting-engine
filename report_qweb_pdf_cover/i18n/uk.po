@@ -98,3 +98,59 @@ msgstr ""
 "Якщо задано, передня обкладинка звіту накладатиметься на вміст першої "
 "сторінки. Це корисно, щоб розмістити частину інформації звіту на передній "
 "обкладинці."
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid "Failed to load back cover: %s"
+msgstr "Не вдалося завантажити задню обкладинку: %s"
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid "Failed to load front cover: %s"
+msgstr "Не вдалося завантажити передню обкладинку: %s"
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid "No usable back cover found."
+msgstr "Придатної задньої обкладинки не знайдено."
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid "No usable front cover found."
+msgstr "Придатної передньої обкладинки не знайдено."
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid ""
+"Your back cover PDF contains more than one page, all but the first one will "
+"be ignored."
+msgstr ""
+"PDF задньої обкладинки містить більше однієї сторінки; усі, крім першої, "
+"буде проігноровано."
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid "Your back cover PDF does not contain any pages."
+msgstr "PDF задньої обкладинки не містить жодної сторінки."
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid ""
+"Your front cover PDF contains more than one page, all but the first one will"
+" be ignored."
+msgstr ""
+"PDF передньої обкладинки містить більше однієї сторінки; усі, крім першої, "
+"буде проігноровано."
+
+#. module: report_qweb_pdf_cover
+#. odoo-python
+#: code:addons/report_qweb_pdf_cover/models/ir_actions_report.py:0
+msgid "Your front cover PDF does not contain any pages."
+msgstr "PDF передньої обкладинки не містить жодної сторінки."

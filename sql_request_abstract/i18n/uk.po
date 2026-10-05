@@ -94,7 +94,7 @@ msgstr "Є підписником"
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
 msgid "It is not allowed to execute a not checked request."
-msgstr ""
+msgstr "Не дозволено виконувати неперевірений запит."
 
 #. module: sql_request_abstract
 #: model:res.groups,name:sql_request_abstract.group_sql_request_manager
@@ -108,6 +108,8 @@ msgid ""
 "Materialized View requires PostgreSQL 9.3 or greater but PostgreSQL %s is "
 "currently installed."
 msgstr ""
+"Матеріалізоване подання потребує PostgreSQL 9.3 або новішого, але "
+"встановлено PostgreSQL %s."
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__message_has_error
@@ -235,18 +237,21 @@ msgid ""
 "\n"
 " %s"
 msgstr ""
+"SQL-запит недійсний:\n"
+"\n"
+" %s"
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
 msgid "The query is not allowed because it contains unsafe word '%s'"
-msgstr ""
+msgstr "Запит не дозволено, оскільки він містить небезпечне слово «%s»"
 
 #. module: sql_request_abstract
 #. odoo-python
 #: code:addons/sql_request_abstract/models/sql_request_mixin.py:0
 msgid "Unimplemented mode : '%s'"
-msgstr ""
+msgstr "Нереалізований режим: '%s'"
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__use_external_database
@@ -280,6 +285,8 @@ msgid ""
 "You can't use an external database as there are no such configuration about "
 "this. Please contact your Odoo administrator to solve this issue."
 msgstr ""
+"Не можна використовувати зовнішню базу даних, оскільки немає відповідної "
+"конфігурації. Зверніться до адміністратора Odoo."
 
 #. module: sql_request_abstract
 #: model:ir.model.fields,help:sql_request_abstract.field_sql_request_mixin__query

@@ -57,3 +57,9 @@ msgstr ""
 #: model:ir.model,name:report_csv.model_report_report_csv_partner_csv
 msgid "Report Partner to CSV"
 msgstr "Експорт звіту партнера в CSV"
+
+#. module: report_csv
+#. odoo-python
+#: code:addons/report_csv/report/report_csv.py:0
+msgid "Failed to encode the data with the encoding set in the report."
+msgstr "Не вдалося закодувати дані кодуванням, заданим у звіті."

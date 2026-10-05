@@ -75,3 +75,9 @@ msgstr "Дія звіту заміни"
 #: model:ir.model,name:report_substitute.model_ir_actions_report_substitution_rule
 msgid "Action Report Substitution Rule"
 msgstr "Правило заміни дії звіту"
+
+#. module: report_substitute
+#. odoo-python
+#: code:addons/report_substitute/models/ir_actions_report_substitution_rule.py:0
+msgid "Substitution infinite loop detected"
+msgstr "Виявлено нескінченний цикл підстановки"

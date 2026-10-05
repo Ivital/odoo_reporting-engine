@@ -150,3 +150,29 @@ msgstr ""
 "[('secondary_uom_id', '=', 1)]\n"
 "[('secondary_uom_id.name', '=', 'Box')]\n"
 "[('state', 'in', ['sale', 'done'])]"
+
+#. module: report_qweb_field_option
+#. odoo-python
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
+msgid ""
+"Invalid domain format: %(domain)s.\n"
+"Error: %(error)s"
+msgstr ""
+"Недійсний формат домену: %(domain)s.\n"
+"Помилка: %(error)s"
+
+#. module: report_qweb_field_option
+#. odoo-python
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
+msgid ""
+"Invalid string for the Options field: %(field_options)s.\n"
+"Error: %(error)s"
+msgstr ""
+"Недійсний рядок для поля параметрів: %(field_options)s.\n"
+"Помилка: %(error)s"
+
+#. module: report_qweb_field_option
+#. odoo-python
+#: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
+msgid "Options must be a dictionary, but got %s"
+msgstr "Параметри мають бути словником, отримано %s"
