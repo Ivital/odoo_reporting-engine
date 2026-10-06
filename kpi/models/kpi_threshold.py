@@ -56,13 +56,15 @@ class KPIThreshold(models.Model):
         "res.company", "Company", default=lambda self: self.env.company
     )
 
-    @api.model
-    def create(self, data):
+    @api.model_create_multi
+    def create(self, vals_list):
         # check if ranges overlap
         # TODO: This code can be done better
         range_obj1 = self.env["kpi.threshold.range"]
         range_obj2 = self.env["kpi.threshold.range"]
-        if data.get("range_ids"):
+        for data in vals_list:
+            if not data.get("range_ids"):
+                continue
             for range1 in data["range_ids"]:
                 range_obj1 = range_obj1.browse(range1[1])
                 for range2 in data["range_ids"]:
