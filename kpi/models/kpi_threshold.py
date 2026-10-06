@@ -84,7 +84,7 @@ class KPIThreshold(models.Model):
                             )
                     range_obj2 = self.env["kpi.threshold.range"]
                 range_obj1 = self.env["kpi.threshold.range"]
-        return super().create(data)
+        return super().create(vals_list)
 
     def get_color(self, kpi_value):
         color = "#FFFFFF"
